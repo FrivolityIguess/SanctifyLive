@@ -1,0 +1,1771 @@
+2025-07-19 08:44:40,760 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 08:44:40,760 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 08:44:40,761 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 08:44:40,763 - INFO - Imported models.song_model.SongModel
+2025-07-19 08:44:40,770 - INFO - Imported models.media_model.MediaModel
+2025-07-19 08:44:40,773 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 08:44:40,773 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 08:44:40,775 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 08:44:40,775 - INFO - Setting up main logging
+2025-07-19 08:44:40,776 - INFO - Main logging setup complete
+2025-07-19 08:44:40,776 - INFO - Entering main block
+2025-07-19 08:44:40,777 - INFO - Starting Sanctify Live...
+2025-07-19 08:44:40,777 - INFO - Enabling high-DPI scaling and accessibility
+2025-07-19 08:44:40,778 - ERROR - Unexpected error: type object 'QCoreApplication' has no attribute 'setAccessibleName'
+2025-07-19 08:44:40,779 - ERROR - [Main] STARTUP_001: Application failed to start: type object 'QCoreApplication' has no attribute 'setAccessibleName'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 288, in main
+    QCoreApplication.setAccessibleName("Sanctify Live")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QCoreApplication' has no attribute 'setAccessibleName'
+2025-07-19 08:44:40,787 - ERROR - Failed in main block: [Main] STARTUP_001: Application failed to start: type object 'QCoreApplication' has no attribute 'setAccessibleName'
+2025-07-19 08:59:17,503 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 08:59:17,504 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 08:59:17,504 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 08:59:17,506 - INFO - Imported models.song_model.SongModel
+2025-07-19 08:59:17,511 - INFO - Imported models.media_model.MediaModel
+2025-07-19 08:59:17,513 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 08:59:17,514 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 08:59:17,515 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 08:59:17,516 - INFO - Setting up main logging
+2025-07-19 08:59:17,517 - INFO - Main logging setup complete
+2025-07-19 08:59:17,517 - INFO - Entering main block
+2025-07-19 08:59:17,518 - INFO - Starting Sanctify Live...
+2025-07-19 08:59:17,518 - INFO - Enabling high-DPI scaling
+2025-07-19 08:59:17,519 - INFO - Initializing QApplication
+2025-07-19 08:59:17,747 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 08:59:17,747 - INFO - Ensuring directories
+2025-07-19 08:59:17,747 - INFO - Checking directory: data/config
+2025-07-19 08:59:17,748 - INFO - Checking directory: data/logs
+2025-07-19 08:59:17,748 - INFO - Checking directory: data/songs
+2025-07-19 08:59:17,749 - INFO - Checking directory: data/media/Images
+2025-07-19 08:59:17,749 - INFO - Checking directory: data/media/Videos
+2025-07-19 08:59:17,750 - INFO - Checking directory: data/media/Gifs
+2025-07-19 08:59:17,751 - INFO - Checking directory: data/presentations
+2025-07-19 08:59:17,751 - INFO - Checking directory: data/themes
+2025-07-19 08:59:17,752 - INFO - Checking directory: data/bibles
+2025-07-19 08:59:17,752 - INFO - Checking directory: assets/translations
+2025-07-19 08:59:17,753 - INFO - All directories ensured
+2025-07-19 08:59:17,753 - INFO - Directories ensured
+2025-07-19 08:59:17,753 - INFO - Initializing SettingsManager
+2025-07-19 08:59:17,755 - INFO - Settings saved successfully
+2025-07-19 08:59:17,755 - INFO - Settings loaded successfully
+2025-07-19 08:59:17,755 - INFO - SettingsManager initialized
+2025-07-19 08:59:17,756 - INFO - Validating assets
+2025-07-19 08:59:17,756 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 08:59:17,756 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 08:59:17,756 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 08:59:17,757 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 08:59:17,757 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 08:59:17,757 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 08:59:17,758 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 08:59:17,758 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 08:59:17,758 - INFO - Asset validation complete
+2025-07-19 08:59:17,758 - INFO - Assets validated
+2025-07-19 08:59:17,759 - INFO - Validating data files
+2025-07-19 08:59:17,759 - INFO - Starting data file validation
+2025-07-19 08:59:17,759 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 08:59:17,760 - INFO - Checking data file: data/media/media.json
+2025-07-19 08:59:17,760 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 08:59:17,761 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 08:59:17,761 - INFO - Checking data file: None
+2025-07-19 08:59:17,761 - ERROR - Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-19 08:59:17,762 - ERROR - [Main] DATA_FILE_002: Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 250, in validate_data_files
+    if not os.path.exists(file_path):
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-19 08:59:17,769 - ERROR - Failed data file validation: [Main] DATA_FILE_002: Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-19 08:59:17,769 - ERROR - [Main] DATA_FILE_003: Data file validation failed: [Main] DATA_FILE_002: Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 250, in validate_data_files
+    if not os.path.exists(file_path):
+           ~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 273, in validate_data_files
+    raise SanctifyError("Main", "DATA_FILE_002", f"Error validating data file {file_path}: {e}")
+core.exceptions.SanctifyError: [Main] DATA_FILE_002: Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-19 08:59:17,771 - ERROR - SanctifyError: [Main] DATA_FILE_003: Data file validation failed: [Main] DATA_FILE_002: Error validating data file None: _path_exists: path should be string, bytes, os.PathLike or integer, not NoneType
+2025-07-19 08:59:17,771 - ERROR - Failed in main block: cannot access local variable 'splash' where it is not associated with a value
+2025-07-19 09:23:56,799 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 09:23:56,800 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 09:23:56,800 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 09:23:56,801 - INFO - Imported models.song_model.SongModel
+2025-07-19 09:23:56,808 - INFO - Imported models.media_model.MediaModel
+2025-07-19 09:23:56,810 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 09:23:56,811 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 09:23:56,812 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 09:23:56,813 - INFO - Setting up main logging
+2025-07-19 09:23:56,813 - INFO - Main logging setup complete
+2025-07-19 09:23:56,813 - INFO - Entering main block
+2025-07-19 09:23:56,814 - INFO - Starting Sanctify Live...
+2025-07-19 09:23:56,814 - INFO - Enabling high-DPI scaling
+2025-07-19 09:23:56,815 - INFO - Initializing QApplication
+2025-07-19 09:23:56,951 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 09:23:56,951 - INFO - Ensuring directories
+2025-07-19 09:23:56,951 - INFO - Checking directory: data/config
+2025-07-19 09:23:56,952 - INFO - Checking directory: data/logs
+2025-07-19 09:23:56,952 - INFO - Checking directory: data/songs
+2025-07-19 09:23:56,953 - INFO - Checking directory: data/media/Images
+2025-07-19 09:23:56,953 - INFO - Checking directory: data/media/Videos
+2025-07-19 09:23:56,954 - INFO - Checking directory: data/media/Gifs
+2025-07-19 09:23:56,955 - INFO - Checking directory: data/presentations
+2025-07-19 09:23:56,955 - INFO - Checking directory: data/themes
+2025-07-19 09:23:56,956 - INFO - Checking directory: data/bibles
+2025-07-19 09:23:56,957 - INFO - Checking directory: assets/translations
+2025-07-19 09:23:56,957 - INFO - All directories ensured
+2025-07-19 09:23:56,958 - INFO - Directories ensured
+2025-07-19 09:23:56,958 - INFO - Initializing SettingsManager
+2025-07-19 09:23:56,960 - INFO - Settings saved successfully
+2025-07-19 09:23:56,960 - INFO - Settings loaded successfully
+2025-07-19 09:23:56,961 - INFO - SettingsManager initialized
+2025-07-19 09:23:56,961 - INFO - Validating assets
+2025-07-19 09:23:56,961 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 09:23:56,961 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 09:23:56,962 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 09:23:56,962 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 09:23:56,962 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 09:23:56,962 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 09:23:56,963 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 09:23:56,963 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 09:23:56,963 - INFO - Asset validation complete
+2025-07-19 09:23:56,963 - INFO - Assets validated
+2025-07-19 09:23:56,963 - INFO - Validating data files
+2025-07-19 09:23:56,964 - INFO - Starting data file validation
+2025-07-19 09:23:56,964 - ERROR - Failed data file validation: 'SettingsManager' object has no attribute 'get_all_settings'
+2025-07-19 09:23:56,964 - ERROR - [Main] DATA_FILE_003: Data file validation failed: 'SettingsManager' object has no attribute 'get_all_settings'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 246, in validate_data_files
+    logger.info(f"Settings loaded: {settings_manager.get_all_settings()}")
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'get_all_settings'. Did you mean: 'default_settings'?
+2025-07-19 09:23:56,972 - ERROR - SanctifyError: [Main] DATA_FILE_003: Data file validation failed: 'SettingsManager' object has no attribute 'get_all_settings'
+2025-07-19 09:25:16,957 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 09:25:16,958 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 09:25:16,958 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 09:25:16,960 - INFO - Imported models.song_model.SongModel
+2025-07-19 09:25:16,965 - INFO - Imported models.media_model.MediaModel
+2025-07-19 09:25:16,967 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 09:25:16,967 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 09:25:16,969 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 09:25:16,969 - INFO - Setting up main logging
+2025-07-19 09:25:16,970 - INFO - Main logging setup complete
+2025-07-19 09:25:16,970 - INFO - Entering main block
+2025-07-19 09:25:16,970 - INFO - Starting Sanctify Live...
+2025-07-19 09:25:16,971 - INFO - Enabling high-DPI scaling
+2025-07-19 09:25:16,972 - INFO - Initializing QApplication
+2025-07-19 09:25:17,084 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 09:25:17,084 - INFO - Ensuring directories
+2025-07-19 09:25:17,085 - INFO - Checking directory: data/config
+2025-07-19 09:25:17,085 - INFO - Checking directory: data/logs
+2025-07-19 09:25:17,085 - INFO - Checking directory: data/songs
+2025-07-19 09:25:17,086 - INFO - Checking directory: data/media/Images
+2025-07-19 09:25:17,086 - INFO - Checking directory: data/media/Videos
+2025-07-19 09:25:17,086 - INFO - Checking directory: data/media/Gifs
+2025-07-19 09:25:17,087 - INFO - Checking directory: data/presentations
+2025-07-19 09:25:17,087 - INFO - Checking directory: data/themes
+2025-07-19 09:25:17,087 - INFO - Checking directory: data/bibles
+2025-07-19 09:25:17,087 - INFO - Checking directory: assets/translations
+2025-07-19 09:25:17,088 - INFO - All directories ensured
+2025-07-19 09:25:17,088 - INFO - Directories ensured
+2025-07-19 09:25:17,088 - INFO - Initializing SettingsManager
+2025-07-19 09:25:17,089 - INFO - Settings saved successfully
+2025-07-19 09:25:17,090 - INFO - Settings loaded successfully
+2025-07-19 09:25:17,090 - INFO - SettingsManager initialized
+2025-07-19 09:25:17,090 - INFO - Validating assets
+2025-07-19 09:25:17,090 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 09:25:17,090 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 09:25:17,091 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 09:25:17,091 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 09:25:17,091 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 09:25:17,091 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 09:25:17,091 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 09:25:17,092 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 09:25:17,092 - INFO - Asset validation complete
+2025-07-19 09:25:17,092 - INFO - Assets validated
+2025-07-19 09:25:17,092 - INFO - Validating data files
+2025-07-19 09:25:17,092 - INFO - Starting data file validation
+2025-07-19 09:25:17,092 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 09:25:17,093 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 09:25:17,093 - INFO - Checking data file: data/media/media.json
+2025-07-19 09:25:17,094 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 09:25:17,094 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 09:25:17,094 - INFO - Checking data file: data/config/settings.json
+2025-07-19 09:25:17,094 - INFO - Data file validation complete
+2025-07-19 09:25:17,095 - INFO - Data files validated
+2025-07-19 09:25:17,095 - INFO - Validating settings paths
+2025-07-19 09:25:17,095 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 09:25:17,099 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 09:25:17,101 - ERROR - SanctifyError: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:14:49,348 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:14:49,348 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:14:49,349 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:14:49,350 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:14:49,357 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:14:49,359 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:14:49,360 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:14:49,361 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:14:49,362 - INFO - Setting up main logging
+2025-07-19 18:14:49,362 - INFO - Main logging setup complete
+2025-07-19 18:14:49,363 - INFO - Entering main block
+2025-07-19 18:14:49,363 - INFO - Starting Sanctify Live...
+2025-07-19 18:14:49,363 - INFO - Enabling high-DPI scaling
+2025-07-19 18:14:49,364 - INFO - Initializing QApplication
+2025-07-19 18:14:49,487 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:14:49,487 - INFO - Ensuring directories
+2025-07-19 18:14:49,487 - INFO - Checking directory: data/config
+2025-07-19 18:14:49,488 - INFO - Checking directory: data/logs
+2025-07-19 18:14:49,488 - INFO - Checking directory: data/songs
+2025-07-19 18:14:49,489 - INFO - Checking directory: data/media/Images
+2025-07-19 18:14:49,489 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:14:49,489 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:14:49,490 - INFO - Checking directory: data/presentations
+2025-07-19 18:14:49,490 - INFO - Checking directory: data/themes
+2025-07-19 18:14:49,490 - INFO - Checking directory: data/bibles
+2025-07-19 18:14:49,491 - INFO - Checking directory: assets/translations
+2025-07-19 18:14:49,491 - INFO - All directories ensured
+2025-07-19 18:14:49,491 - INFO - Directories ensured
+2025-07-19 18:14:49,492 - INFO - Initializing SettingsManager
+2025-07-19 18:14:49,493 - INFO - Settings saved successfully
+2025-07-19 18:14:49,493 - INFO - Settings loaded successfully
+2025-07-19 18:14:49,493 - INFO - SettingsManager initialized
+2025-07-19 18:14:49,494 - INFO - Validating assets
+2025-07-19 18:14:49,494 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:14:49,494 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:14:49,494 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:14:49,495 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:14:49,495 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:14:49,495 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:14:49,495 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:14:49,496 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:14:49,496 - INFO - Asset validation complete
+2025-07-19 18:14:49,496 - INFO - Assets validated
+2025-07-19 18:14:49,496 - INFO - Validating data files
+2025-07-19 18:14:49,496 - INFO - Starting data file validation
+2025-07-19 18:14:49,497 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:14:49,497 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:14:49,498 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:14:49,498 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:14:49,499 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:14:49,499 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:14:49,499 - INFO - Data file validation complete
+2025-07-19 18:14:49,500 - INFO - Data files validated
+2025-07-19 18:14:49,500 - INFO - Validating settings paths
+2025-07-19 18:14:49,500 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:14:49,507 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:14:49,510 - ERROR - SanctifyError: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:15:20,311 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:15:20,312 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:15:20,312 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:15:20,314 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:15:20,319 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:15:20,322 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:15:20,323 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:15:20,324 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:15:20,325 - INFO - Setting up main logging
+2025-07-19 18:15:20,325 - INFO - Main logging setup complete
+2025-07-19 18:15:20,326 - INFO - Entering main block
+2025-07-19 18:15:20,326 - INFO - Starting Sanctify Live...
+2025-07-19 18:15:20,326 - INFO - Enabling high-DPI scaling
+2025-07-19 18:15:20,327 - INFO - Initializing QApplication
+2025-07-19 18:15:20,441 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:15:20,441 - INFO - Ensuring directories
+2025-07-19 18:15:20,442 - INFO - Checking directory: data/config
+2025-07-19 18:15:20,442 - INFO - Checking directory: data/logs
+2025-07-19 18:15:20,442 - INFO - Checking directory: data/songs
+2025-07-19 18:15:20,443 - INFO - Checking directory: data/media/Images
+2025-07-19 18:15:20,443 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:15:20,444 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:15:20,444 - INFO - Checking directory: data/presentations
+2025-07-19 18:15:20,444 - INFO - Checking directory: data/themes
+2025-07-19 18:15:20,445 - INFO - Checking directory: data/bibles
+2025-07-19 18:15:20,445 - INFO - Checking directory: assets/translations
+2025-07-19 18:15:20,445 - INFO - All directories ensured
+2025-07-19 18:15:20,446 - INFO - Directories ensured
+2025-07-19 18:15:20,446 - INFO - Initializing SettingsManager
+2025-07-19 18:15:20,447 - INFO - Settings saved successfully
+2025-07-19 18:15:20,447 - INFO - Settings loaded successfully
+2025-07-19 18:15:20,448 - INFO - SettingsManager initialized
+2025-07-19 18:15:20,448 - INFO - Validating assets
+2025-07-19 18:15:20,448 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:15:20,448 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:15:20,449 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:15:20,449 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:15:20,449 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:15:20,449 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:15:20,449 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:15:20,450 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:15:20,450 - INFO - Asset validation complete
+2025-07-19 18:15:20,450 - INFO - Assets validated
+2025-07-19 18:15:20,450 - INFO - Validating data files
+2025-07-19 18:15:20,450 - INFO - Starting data file validation
+2025-07-19 18:15:20,451 - ERROR - Failed data file validation: 'SettingsManager' object has no attribute 'get_all_settings'
+2025-07-19 18:15:20,451 - ERROR - [Main] DATA_FILE_003: Data file validation failed: 'SettingsManager' object has no attribute 'get_all_settings'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 246, in validate_data_files
+    logger.info(f"Settings loaded: {settings_manager.get_all_settings()}")
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsManager' object has no attribute 'get_all_settings'. Did you mean: 'default_settings'?
+2025-07-19 18:15:20,456 - ERROR - SanctifyError: [Main] DATA_FILE_003: Data file validation failed: 'SettingsManager' object has no attribute 'get_all_settings'
+2025-07-19 18:16:45,737 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:16:45,737 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:16:45,738 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:16:45,739 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:16:45,744 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:16:45,746 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:16:45,747 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:16:45,748 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:16:45,748 - INFO - Setting up main logging
+2025-07-19 18:16:45,749 - INFO - Main logging setup complete
+2025-07-19 18:16:45,750 - INFO - Entering main block
+2025-07-19 18:16:45,750 - INFO - Starting Sanctify Live...
+2025-07-19 18:16:45,750 - INFO - Enabling high-DPI scaling
+2025-07-19 18:16:45,751 - INFO - Initializing QApplication
+2025-07-19 18:16:45,867 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:16:45,867 - INFO - Ensuring directories
+2025-07-19 18:16:45,867 - INFO - Checking directory: data/config
+2025-07-19 18:16:45,868 - INFO - Checking directory: data/logs
+2025-07-19 18:16:45,868 - INFO - Checking directory: data/songs
+2025-07-19 18:16:45,868 - INFO - Checking directory: data/media/Images
+2025-07-19 18:16:45,869 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:16:45,869 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:16:45,869 - INFO - Checking directory: data/presentations
+2025-07-19 18:16:45,870 - INFO - Checking directory: data/themes
+2025-07-19 18:16:45,870 - INFO - Checking directory: data/bibles
+2025-07-19 18:16:45,871 - INFO - Checking directory: assets/translations
+2025-07-19 18:16:45,871 - INFO - All directories ensured
+2025-07-19 18:16:45,871 - INFO - Directories ensured
+2025-07-19 18:16:45,871 - INFO - Initializing SettingsManager
+2025-07-19 18:16:45,872 - INFO - Settings saved successfully
+2025-07-19 18:16:45,873 - INFO - Settings loaded successfully
+2025-07-19 18:16:45,873 - INFO - SettingsManager initialized
+2025-07-19 18:16:45,873 - INFO - Validating assets
+2025-07-19 18:16:45,873 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:16:45,874 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:16:45,874 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:16:45,874 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:16:45,875 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:16:45,876 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:16:45,876 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:16:45,876 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:16:45,876 - INFO - Asset validation complete
+2025-07-19 18:16:45,876 - INFO - Assets validated
+2025-07-19 18:16:45,877 - INFO - Validating data files
+2025-07-19 18:16:45,877 - INFO - Starting data file validation
+2025-07-19 18:16:45,877 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:16:45,878 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:16:45,878 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:16:45,879 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:16:45,879 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:16:45,879 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:16:45,880 - INFO - Data file validation complete
+2025-07-19 18:16:45,880 - INFO - Data files validated
+2025-07-19 18:16:45,880 - INFO - Validating settings paths
+2025-07-19 18:16:45,880 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:16:45,885 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:16:45,886 - ERROR - SanctifyError: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:19:07,433 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:19:07,434 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:19:07,434 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:19:07,436 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:19:07,442 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:19:07,444 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:19:07,444 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:19:07,445 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:19:07,446 - INFO - Setting up main logging
+2025-07-19 18:19:07,446 - INFO - Main logging setup complete
+2025-07-19 18:19:07,447 - INFO - Entering main block
+2025-07-19 18:19:07,447 - INFO - Starting Sanctify Live...
+2025-07-19 18:19:07,447 - INFO - Enabling high-DPI scaling
+2025-07-19 18:19:07,449 - INFO - Initializing QApplication
+2025-07-19 18:19:07,573 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:19:07,573 - INFO - Ensuring directories
+2025-07-19 18:19:07,573 - INFO - Checking directory: data/config
+2025-07-19 18:19:07,574 - INFO - Checking directory: data/logs
+2025-07-19 18:19:07,574 - INFO - Checking directory: data/songs
+2025-07-19 18:19:07,575 - INFO - Checking directory: data/media/Images
+2025-07-19 18:19:07,575 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:19:07,576 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:19:07,576 - INFO - Checking directory: data/presentations
+2025-07-19 18:19:07,576 - INFO - Checking directory: data/themes
+2025-07-19 18:19:07,577 - INFO - Checking directory: data/bibles
+2025-07-19 18:19:07,577 - INFO - Checking directory: assets/translations
+2025-07-19 18:19:07,578 - INFO - All directories ensured
+2025-07-19 18:19:07,578 - INFO - Directories ensured
+2025-07-19 18:19:07,578 - INFO - Initializing SettingsManager
+2025-07-19 18:19:07,579 - INFO - Settings saved successfully
+2025-07-19 18:19:07,580 - INFO - Settings loaded successfully
+2025-07-19 18:19:07,580 - INFO - SettingsManager initialized
+2025-07-19 18:19:07,580 - INFO - Validating assets
+2025-07-19 18:19:07,580 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:19:07,581 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:19:07,581 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:19:07,581 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:19:07,581 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:19:07,581 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:19:07,582 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:19:07,582 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:19:07,582 - INFO - Asset validation complete
+2025-07-19 18:19:07,582 - INFO - Assets validated
+2025-07-19 18:19:07,582 - INFO - Validating data files
+2025-07-19 18:19:07,582 - INFO - Starting data file validation
+2025-07-19 18:19:07,583 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:19:07,583 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:19:07,584 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:19:07,584 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:19:07,584 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:19:07,585 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:19:07,585 - INFO - Data file validation complete
+2025-07-19 18:19:07,585 - INFO - Data files validated
+2025-07-19 18:19:07,585 - INFO - Validating settings paths
+2025-07-19 18:19:07,585 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:19:07,591 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:19:07,593 - WARNING - Skipping path validation due to error: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:19:12,968 - INFO - Loading translations
+2025-07-19 18:19:12,968 - INFO - Translations loaded
+2025-07-19 18:19:12,969 - INFO - Showing splash screen
+2025-07-19 18:19:13,029 - INFO - Splash screen shown
+2025-07-19 18:19:13,029 - INFO - Initializing components
+2025-07-19 18:19:13,029 - INFO - Starting task: Loading song model...
+2025-07-19 18:19:13,038 - WARNING - Invalid song data: Is there a heart o'er-bound by sorrow?
+2025-07-19 18:19:13,038 - WARNING - Invalid song data: O for a thousand tongues to sing
+2025-07-19 18:19:13,038 - WARNING - Invalid song data: Christ, our mighty Captain, leads against the foe;
+2025-07-19 18:19:13,038 - WARNING - Invalid song data: I know my heav’nly Father knows
+2025-07-19 18:19:13,039 - WARNING - Invalid song data: ON THE CROSS CRUCIFIED, IN GREAT SORROW HE DIED;
+2025-07-19 18:19:13,039 - WARNING - Invalid song data: 
+2025-07-19 18:19:13,039 - WARNING - Invalid song data: 1 Are you trusting the love of the Savior divine,
+2025-07-19 18:19:13,039 - WARNING - Invalid song data: 1. Tell the whole wide world of Jesus,
+2025-07-19 18:19:13,040 - WARNING - Invalid song data: Send the gospel of salvation,
+2025-07-19 18:19:13,040 - WARNING - Invalid song data: "Must I go and empty-handed,"
+2025-07-19 18:19:13,040 - WARNING - Invalid song data: To the work! to the work! we are servants of God,
+2025-07-19 18:19:13,040 - WARNING - Invalid song data: I will tell to all that God is love;
+2025-07-19 18:19:13,041 - WARNING - Invalid song data: Rescue the perishing, care for the dying,
+2025-07-19 18:19:13,041 - WARNING - Invalid song data: 1 If to Christ our only king
+2025-07-19 18:19:13,041 - WARNING - Invalid song data: Go and tell the story to thy friends to-day,
+2025-07-19 18:19:13,041 - WARNING - Invalid song data: How to reach the masses, men of every birth,
+2025-07-19 18:19:13,042 - WARNING - Invalid song data: Carry your Bible with you,
+2025-07-19 18:19:13,042 - WARNING - Invalid song data: Sing a song, spread some cheer,
+2025-07-19 18:19:13,042 - WARNING - Invalid song data: I love to tell the story
+2025-07-19 18:19:13,043 - WARNING - Invalid song data: Many a soul in the battle of life
+2025-07-19 18:19:13,043 - WARNING - Invalid song data: Praise Him! Praise Him! Jesus our blessed Redeemer,
+2025-07-19 18:19:13,043 - WARNING - Invalid song data: Speak just a word for Jesus,
+2025-07-19 18:19:13,043 - WARNING - Invalid song data: If you've found Jesus
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: Out in the darkness of sorrow and sin,
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: There’s no one like my Saviour,
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: Sinners Jesus will receive:
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: Wonderful Grace of Jesus, greater than all my sin;
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: Great God of wonders!
+2025-07-19 18:19:13,044 - WARNING - Invalid song data: I heard an old, old story,
+2025-07-19 18:19:13,045 - WARNING - Invalid song data: Just as I am, without one plea,
+2025-07-19 18:19:13,045 - WARNING - Invalid song data: In tenderness He sought me,
+2025-07-19 18:19:13,045 - WARNING - Invalid song data: Since the Saviour came to this heart of mine
+2025-07-19 18:19:13,045 - WARNING - Invalid song data: Out of my bondage, sorrow and night,
+2025-07-19 18:19:13,046 - WARNING - Invalid song data: Tell me the old, old story
+2025-07-19 18:19:13,046 - WARNING - Invalid song data: Years I spent in vanity and pride,
+2025-07-19 18:19:13,046 - WARNING - Invalid song data: We read of a place that’s called heaven,
+2025-07-19 18:19:13,046 - WARNING - Invalid song data: There is a Home eternal,
+2025-07-19 18:19:13,046 - WARNING - Invalid song data: On the mountain of Zion beyond the blue sky,
+2025-07-19 18:19:13,047 - WARNING - Invalid song data: I shall see the King
+2025-07-19 18:19:13,047 - WARNING - Invalid song data: There is singing up in Heaven
+2025-07-19 18:19:13,047 - WARNING - Invalid song data: When I come to the end of the long, long road,
+2025-07-19 18:19:13,047 - WARNING - Invalid song data: When I come to the river at the ending of day
+2025-07-19 18:19:13,047 - WARNING - Invalid song data: There’s a land beyond the river,
+2025-07-19 18:19:13,048 - WARNING - Invalid song data: Face to face with Christ, my Saviour,
+2025-07-19 18:19:13,048 - WARNING - Invalid song data: There's a land that is fairer than day,
+2025-07-19 18:19:13,048 - WARNING - Invalid song data: 1. No tears in heaven, no sorrows given.
+2025-07-19 18:19:13,048 - WARNING - Invalid song data: Lord, as of old, at Pentecost,
+2025-07-19 18:19:13,048 - WARNING - Invalid song data: Joys are flowing like a river,
+2025-07-19 18:19:13,049 - WARNING - Invalid song data: When first the risen Lord of pow'r
+2025-07-19 18:19:13,049 - WARNING - Invalid song data: Long ago in days of old, stood a man of God we're told,
+2025-07-19 18:19:13,049 - WARNING - Invalid song data: The cross upon which Jesus died
+2025-07-19 18:19:13,050 - WARNING - Invalid song data: Have you wandered away from your Father's care,
+2025-07-19 18:19:13,050 - WARNING - Invalid song data: Why do you wait, dear brother,
+2025-07-19 18:19:13,050 - WARNING - Invalid song data: Rejoice in the Lord! Oh, let His mercy cheer;
+2025-07-19 18:19:13,050 - WARNING - Invalid song data: The Shepherd of Love is seeking the lost
+2025-07-19 18:19:13,051 - WARNING - Invalid song data: Who'll be the next to follow Jesus?
+2025-07-19 18:19:13,051 - WARNING - Invalid song data: “Almost persuaded” now to believe;
+2025-07-19 18:19:13,051 - WARNING - Invalid song data: My God, is any hour so sweet
+2025-07-19 18:19:13,051 - WARNING - Invalid song data: Prayer is the soul’s sincere desire,
+2025-07-19 18:19:13,052 - WARNING - Invalid song data: Ere you left your room this morning
+2025-07-19 18:19:13,052 - WARNING - Invalid song data: 1. What a Friend we have in Jesus,
+2025-07-19 18:19:13,052 - WARNING - Invalid song data: Sweet hour of pray'r! Sweet hour of pray'r!
+2025-07-19 18:19:13,053 - WARNING - Invalid song data: Jesus may come today,
+2025-07-19 18:19:13,053 - WARNING - Invalid song data: Marvelous message we bring
+2025-07-19 18:19:13,053 - WARNING - Invalid song data: Lift up your heads, pilgrims a-weary,
+2025-07-19 18:19:13,053 - WARNING - Invalid song data: It may be at morn, when the day is awaking,
+2025-07-19 18:19:13,053 - WARNING - Invalid song data: Search me, O God, and know my heart today;
+2025-07-19 18:19:13,054 - WARNING - Invalid song data: Blessed assurance, Jesus is mine!
+2025-07-19 18:19:13,054 - WARNING - Invalid song data: Since the Son hath made me free,
+2025-07-19 18:19:13,054 - WARNING - Invalid song data: All things are possible to him
+2025-07-19 18:19:13,054 - WARNING - Invalid song data: BLESSED are the pure in heart,
+2025-07-19 18:19:13,054 - WARNING - Invalid song data: Come, O my God, the promise seal,
+2025-07-19 18:19:13,055 - WARNING - Invalid song data: Saviour from sin, I wait to prove
+2025-07-19 18:19:13,055 - WARNING - Invalid song data: The things my God doth hate,
+2025-07-19 18:19:13,055 - WARNING - Invalid song data: JESUS, all-atoning Lamb,
+2025-07-19 18:19:13,055 - WARNING - Invalid song data: O Lord, how happy should we be
+2025-07-19 18:19:13,055 - WARNING - Invalid song data: Take time to be holy, speak of with thy Lord;
+2025-07-19 18:19:13,056 - WARNING - Invalid song data: Christ Jesus hath the power, the power to forgive,
+2025-07-19 18:19:13,056 - WARNING - Invalid song data: Come, Holy Ghost, all-quickening fire,
+2025-07-19 18:19:13,056 - WARNING - Invalid song data: O for a heart to praise my God,
+2025-07-19 18:19:13,056 - WARNING - Invalid song data: Another year is dawning,
+2025-07-19 18:19:13,056 - WARNING - Invalid song data: O day of rest and gladness,
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: Another year is dawning, dear Father let it be,
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: Does Jesus care when my heart is pained
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: Wonderful love that rescued me,
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: 1 I do not ask to see the way
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: God has shown His loving face
+2025-07-19 18:19:13,057 - WARNING - Invalid song data: Hear the blessed Saviour Calling the oppressed,
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: 1 “I am the Way,” the Saviour said,
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: I was sinking deep in sin,
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: Wonderful story of love;
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: There is no love like the love of Jesus,
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: A ruler once came to Jesus by night
+2025-07-19 18:19:13,058 - WARNING - Invalid song data: There's a line that is drawn by rejecting our Lord,
+2025-07-19 18:19:13,059 - WARNING - Invalid song data: Where will you spend eternity?
+2025-07-19 18:19:13,059 - WARNING - Invalid song data: Open my eyes, that I may see
+2025-07-19 18:19:13,059 - WARNING - Invalid song data: Crown him with many crowns,
+2025-07-19 18:19:13,059 - WARNING - Invalid song data: Jesus shall reign where'er the sun
+2025-07-19 18:19:13,059 - WARNING - Invalid song data: Rejoice, the Lord is King:
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: All hail the power of Jesus' name!
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: O happy day, that fixed my choice
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: More about Jesus would I know,
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: O perfect Love, all human thought transcending,
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: More holiness give me,
+2025-07-19 18:19:13,060 - WARNING - Invalid song data: Simply trusting every day;
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: 1 When I saw the cleansing fountain,
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: Let not thy hands be slack,
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: Speed thy servants, Saviour, speed them;
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: I gave my life for thee,
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: O the bitter shame and sorrow,
+2025-07-19 18:19:13,061 - WARNING - Invalid song data: Burn fire of God! my ransomed soul possessing;
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: I want my life to be all filled with praise to Thee,
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: Nearer, my God, to Thee, nearer to Thee!
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: Oh, do not let thy Lord depart,
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: Are you longing for the fullness
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: There's a call comes ringing o'er the restless wave,
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: O Lord "with one accord"
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: The holy Spirit's power
+2025-07-19 18:19:13,062 - WARNING - Invalid song data: Lord God, the Holy Ghost,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: Peace, perfect peace, in this dark world of sin?
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: Thou hidden source of calm repose,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: One there is, above all others,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: Jesus Is The Same Forever
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: I've found the pearl of greatest price,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: A good High Priest is come,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: Standing on the promises of Christ my King,
+2025-07-19 18:19:13,063 - WARNING - Invalid song data: Friends all around me are trying to find
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: Is your life a channel of blessing?
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: O brother, life’s journey beginning,
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: 'Tis finished! the Messiah dies,
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: From ev'ry stormy wind that blows,
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: Come sing the praise of Jesus
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: Jesus, my Lord will love me forever,
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: 'For my sake and the gospel's, go
+2025-07-19 18:19:13,064 - WARNING - Invalid song data: Fading away like the stars of the morning
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: All the darkness of the night has passed away,
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: All, all to Jesus, I consecrate anew;
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: Lower and lower, dear Lord, at Thy feet,
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: Redeemed—how I love to proclaim it!
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: Jesus, send more labourers
+2025-07-19 18:19:13,065 - WARNING - Invalid song data: Oh, to be like Thee, blessed Redeemer,
+2025-07-19 18:19:13,066 - WARNING - Invalid song data: More like the Master I would ever be,
+2025-07-19 18:19:13,066 - WARNING - Invalid song data: I know not why God’s wondrous grace
+2025-07-19 18:19:13,066 - WARNING - Invalid song data: Gracious Spirit, dwell with me:
+2025-07-19 18:19:13,067 - WARNING - Invalid song data: Storms do not alarm me, they sometime must cease,
+2025-07-19 18:19:13,067 - WARNING - Invalid song data: Impatient heart, be still!
+2025-07-19 18:19:13,067 - WARNING - Invalid song data: Upon life’s boundless ocean where mighty billows roll,
+2025-07-19 18:19:13,068 - WARNING - Invalid song data: O what a wonderful, wonderful day –
+2025-07-19 18:19:13,068 - WARNING - Invalid song data: What a wonderful change in my life has been wrought
+2025-07-19 18:19:13,068 - WARNING - Invalid song data: There’s a peace in my heart
+2025-07-19 18:19:13,069 - WARNING - Invalid song data: I was once a sinner, but I came
+2025-07-19 18:19:13,069 - WARNING - Invalid song data: 1 I am bought not with riches,
+2025-07-19 18:19:13,069 - WARNING - Invalid song data: Christ our Redeemer died on the cross,
+2025-07-19 18:19:13,070 - WARNING - Invalid song data: Have you been to Jesus for the cleansing power?
+2025-07-19 18:19:13,070 - WARNING - Invalid song data: If the world from you withhold of its silver and its gold,
+2025-07-19 18:19:13,071 - WARNING - Invalid song data: Wash me, O Lamb of God,
+2025-07-19 18:19:13,071 - WARNING - Invalid song data: Onward, Christian soldiers! marching as to war,
+2025-07-19 18:19:13,071 - WARNING - Invalid song data: Thou my everlasting Portion,
+2025-07-19 18:19:13,071 - WARNING - Invalid song data: When we walk with the Lord
+2025-07-19 18:19:13,072 - WARNING - Invalid song data: There’s a land of peace and plenty,
+2025-07-19 18:19:13,072 - WARNING - Invalid song data: JESUS, my strength, my hope,
+2025-07-19 18:19:13,072 - WARNING - Invalid song data: O give us homes built firm upon the Saviour,
+2025-07-19 18:19:13,072 - WARNING - Invalid song data: Just as God who reigns on high
+2025-07-19 18:19:13,072 - WARNING - Invalid song data: 'Tis so sweet to trust in Jesus,
+2025-07-19 18:19:13,073 - WARNING - Invalid song data: Never be sad or desponding,
+2025-07-19 18:19:13,073 - WARNING - Invalid song data: There's a blessed land that we call Canaan,
+2025-07-19 18:19:13,073 - WARNING - Invalid song data: When you count the ones who love the Lord,
+2025-07-19 18:19:13,073 - WARNING - Invalid song data: So send I you to labour unrewarded
+2025-07-19 18:19:13,073 - WARNING - Invalid song data: Listen to the Master’s pleading,
+2025-07-19 18:19:13,074 - WARNING - Invalid song data: Anywhere with Jesus I can safely go;
+2025-07-19 18:19:13,074 - WARNING - Invalid song data: I love, I love my Master,
+2025-07-19 18:19:13,074 - WARNING - Invalid song data: Ho, reapers in the whitened harvest!
+2025-07-19 18:19:13,074 - WARNING - Invalid song data: In the harvest field now ripened
+2025-07-19 18:19:13,075 - WARNING - Invalid song data: Living below in this old sinful world,
+2025-07-19 18:19:13,075 - WARNING - Invalid song data: Go, labour on, spend, and be spent,
+2025-07-19 18:19:13,075 - WARNING - Invalid song data: I am thinking today of that beautiful land
+2025-07-19 18:19:13,075 - WARNING - Invalid song data: There have been names that I have loved to hear,
+2025-07-19 18:19:13,075 - WARNING - Invalid song data: My Jesus I love Thee, I know Thou art mine;
+2025-07-19 18:19:13,076 - WARNING - Invalid song data: Saviour, like a Shepherd, lead us,
+2025-07-19 18:19:13,076 - WARNING - Invalid song data: Christ beside me,
+2025-07-19 18:19:13,076 - WARNING - Invalid song data: O soul, are you weary and troubled?
+2025-07-19 18:19:13,076 - WARNING - Invalid song data: Have you any room for Jesus,
+2025-07-19 18:19:13,076 - WARNING - Invalid song data: There is One loved me so that for me He died,
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: My hope is built on nothing less
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: There came from the skies in the days long ago,
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: The church's one foundation
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: In times like these you need a Savior,
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: I have decided to follow Jesus;
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: I must needs go home by the way of the cross,
+2025-07-19 18:19:13,077 - WARNING - Invalid song data: O for a thousand tonngues to sing,
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: Alas! and did my Savior bleed,
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: King of my life I crown thee now
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: When I survey the wondrous cross
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: Deeper, deeper, in the love of Jesus,
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: Nothing between my soul and my Savior,
+2025-07-19 18:19:13,078 - WARNING - Invalid song data: Take my life and let it be
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: "Take up thy cross and follow me,"
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: O Jesus, I have promised
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: O Love that wilt not let me go,
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: I can hear my Savior calling,
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: All to Jesus I surrender,
+2025-07-19 18:19:13,079 - WARNING - Invalid song data: More love to Thee, O Christ, more love to Thee!
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: I am Thine, O Lord, I have heard Thy voice,
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: COME, Saviour, Jesus, from above!
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: Master, the tempest is raging!
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: Oft in danger, oft in woe,
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: Rise, ye children of salvation,
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: There is vict’ry within my soul
+2025-07-19 18:19:13,080 - WARNING - Invalid song data: txt
+2025-07-19 18:19:13,081 - INFO - Starting task: Loading media model...
+2025-07-19 18:19:13,086 - INFO - Starting task: Loading presentation model...
+2025-07-19 18:19:13,091 - INFO - Starting task: Loading theme model...
+2025-07-19 18:19:13,095 - INFO - Starting task: Loading scripture model...
+2025-07-19 18:19:13,103 - WARNING - No valid bibles found in data/bibles
+2025-07-19 18:19:13,103 - INFO - Starting task: Initializing main window...
+2025-07-19 18:19:13,108 - INFO - Settings saved successfully
+2025-07-19 18:19:13,109 - INFO - Settings loaded successfully
+2025-07-19 18:19:13,112 - ERROR - Failed to setup UI: Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 99, in setup_ui
+    QApplication.instance().setAccessibleName("Sanctify Live")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QApplication' object has no attribute 'setAccessibleName'
+
+2025-07-19 18:19:14,612 - ERROR - Failed startup task 'Initializing main window...': 'QApplication' object has no attribute 'setAccessibleName'
+2025-07-19 18:19:14,613 - ERROR - [Main] INIT_006: Failed startup task 'Initializing main window...': 'QApplication' object has no attribute 'setAccessibleName'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 399, in main
+    components[message] = task()
+                          ~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 390, in <lambda>
+    ("Initializing main window...", lambda: SanctifyApp())
+                                            ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 99, in setup_ui
+    QApplication.instance().setAccessibleName("Sanctify Live")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QApplication' object has no attribute 'setAccessibleName'
+2025-07-19 18:19:14,619 - ERROR - SanctifyError: [Main] INIT_006: Failed startup task 'Initializing main window...': 'QApplication' object has no attribute 'setAccessibleName'
+2025-07-19 18:27:56,080 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:27:56,081 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:27:56,081 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:27:56,083 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:27:56,088 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:27:56,090 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:27:56,091 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:27:56,092 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:27:56,093 - INFO - Setting up main logging
+2025-07-19 18:27:56,093 - INFO - Main logging setup complete
+2025-07-19 18:27:56,094 - INFO - Entering main block
+2025-07-19 18:27:56,094 - INFO - Starting Sanctify Live...
+2025-07-19 18:27:56,094 - INFO - Enabling high-DPI scaling
+2025-07-19 18:27:56,096 - INFO - Initializing QApplication
+2025-07-19 18:27:56,211 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:27:56,211 - INFO - Ensuring directories
+2025-07-19 18:27:56,211 - INFO - Checking directory: data/config
+2025-07-19 18:27:56,212 - INFO - Checking directory: data/logs
+2025-07-19 18:27:56,212 - INFO - Checking directory: data/songs
+2025-07-19 18:27:56,212 - INFO - Checking directory: data/media/Images
+2025-07-19 18:27:56,213 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:27:56,213 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:27:56,213 - INFO - Checking directory: data/presentations
+2025-07-19 18:27:56,214 - INFO - Checking directory: data/themes
+2025-07-19 18:27:56,214 - INFO - Checking directory: data/bibles
+2025-07-19 18:27:56,214 - INFO - Checking directory: assets/translations
+2025-07-19 18:27:56,215 - INFO - All directories ensured
+2025-07-19 18:27:56,215 - INFO - Directories ensured
+2025-07-19 18:27:56,215 - INFO - Initializing SettingsManager
+2025-07-19 18:27:56,216 - INFO - Settings saved successfully
+2025-07-19 18:27:56,217 - INFO - Settings loaded successfully
+2025-07-19 18:27:56,217 - INFO - SettingsManager initialized
+2025-07-19 18:27:56,217 - INFO - Validating assets
+2025-07-19 18:27:56,217 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:27:56,217 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:27:56,218 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:27:56,218 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:27:56,218 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:27:56,218 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:27:56,219 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:27:56,219 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:27:56,219 - INFO - Asset validation complete
+2025-07-19 18:27:56,219 - INFO - Assets validated
+2025-07-19 18:27:56,220 - INFO - Validating data files
+2025-07-19 18:27:56,220 - INFO - Starting data file validation
+2025-07-19 18:27:56,220 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:27:56,221 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:27:56,222 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:27:56,222 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:27:56,223 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:27:56,223 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:27:56,223 - INFO - Data file validation complete
+2025-07-19 18:27:56,224 - INFO - Data files validated
+2025-07-19 18:27:56,224 - INFO - Validating settings paths
+2025-07-19 18:27:56,224 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:27:56,230 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:27:56,231 - WARNING - Skipping path validation due to error: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:27:57,875 - INFO - Loading translations
+2025-07-19 18:27:57,876 - INFO - Translations loaded
+2025-07-19 18:27:57,876 - INFO - Showing splash screen
+2025-07-19 18:27:57,939 - INFO - Splash screen shown
+2025-07-19 18:27:57,939 - INFO - Initializing components
+2025-07-19 18:27:57,940 - INFO - Starting task: Loading song model...
+2025-07-19 18:27:57,948 - WARNING - Invalid song data: Is there a heart o'er-bound by sorrow?
+2025-07-19 18:27:57,949 - WARNING - Invalid song data: O for a thousand tongues to sing
+2025-07-19 18:27:57,949 - WARNING - Invalid song data: Christ, our mighty Captain, leads against the foe;
+2025-07-19 18:27:57,949 - WARNING - Invalid song data: I know my heav’nly Father knows
+2025-07-19 18:27:57,950 - WARNING - Invalid song data: ON THE CROSS CRUCIFIED, IN GREAT SORROW HE DIED;
+2025-07-19 18:27:57,950 - WARNING - Invalid song data: 
+2025-07-19 18:27:57,950 - WARNING - Invalid song data: 1 Are you trusting the love of the Savior divine,
+2025-07-19 18:27:57,951 - WARNING - Invalid song data: 1. Tell the whole wide world of Jesus,
+2025-07-19 18:27:57,951 - WARNING - Invalid song data: Send the gospel of salvation,
+2025-07-19 18:27:57,951 - WARNING - Invalid song data: "Must I go and empty-handed,"
+2025-07-19 18:27:57,952 - WARNING - Invalid song data: To the work! to the work! we are servants of God,
+2025-07-19 18:27:57,952 - WARNING - Invalid song data: I will tell to all that God is love;
+2025-07-19 18:27:57,952 - WARNING - Invalid song data: Rescue the perishing, care for the dying,
+2025-07-19 18:27:57,952 - WARNING - Invalid song data: 1 If to Christ our only king
+2025-07-19 18:27:57,952 - WARNING - Invalid song data: Go and tell the story to thy friends to-day,
+2025-07-19 18:27:57,953 - WARNING - Invalid song data: How to reach the masses, men of every birth,
+2025-07-19 18:27:57,953 - WARNING - Invalid song data: Carry your Bible with you,
+2025-07-19 18:27:57,953 - WARNING - Invalid song data: Sing a song, spread some cheer,
+2025-07-19 18:27:57,954 - WARNING - Invalid song data: I love to tell the story
+2025-07-19 18:27:57,954 - WARNING - Invalid song data: Many a soul in the battle of life
+2025-07-19 18:27:57,954 - WARNING - Invalid song data: Praise Him! Praise Him! Jesus our blessed Redeemer,
+2025-07-19 18:27:57,954 - WARNING - Invalid song data: Speak just a word for Jesus,
+2025-07-19 18:27:57,954 - WARNING - Invalid song data: If you've found Jesus
+2025-07-19 18:27:57,955 - WARNING - Invalid song data: Out in the darkness of sorrow and sin,
+2025-07-19 18:27:57,955 - WARNING - Invalid song data: There’s no one like my Saviour,
+2025-07-19 18:27:57,955 - WARNING - Invalid song data: Sinners Jesus will receive:
+2025-07-19 18:27:57,955 - WARNING - Invalid song data: Wonderful Grace of Jesus, greater than all my sin;
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: Great God of wonders!
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: I heard an old, old story,
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: Just as I am, without one plea,
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: In tenderness He sought me,
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: Since the Saviour came to this heart of mine
+2025-07-19 18:27:57,956 - WARNING - Invalid song data: Out of my bondage, sorrow and night,
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: Tell me the old, old story
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: Years I spent in vanity and pride,
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: We read of a place that’s called heaven,
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: There is a Home eternal,
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: On the mountain of Zion beyond the blue sky,
+2025-07-19 18:27:57,957 - WARNING - Invalid song data: I shall see the King
+2025-07-19 18:27:57,958 - WARNING - Invalid song data: There is singing up in Heaven
+2025-07-19 18:27:57,958 - WARNING - Invalid song data: When I come to the end of the long, long road,
+2025-07-19 18:27:57,958 - WARNING - Invalid song data: When I come to the river at the ending of day
+2025-07-19 18:27:57,958 - WARNING - Invalid song data: There’s a land beyond the river,
+2025-07-19 18:27:57,958 - WARNING - Invalid song data: Face to face with Christ, my Saviour,
+2025-07-19 18:27:57,959 - WARNING - Invalid song data: There's a land that is fairer than day,
+2025-07-19 18:27:57,959 - WARNING - Invalid song data: 1. No tears in heaven, no sorrows given.
+2025-07-19 18:27:57,959 - WARNING - Invalid song data: Lord, as of old, at Pentecost,
+2025-07-19 18:27:57,959 - WARNING - Invalid song data: Joys are flowing like a river,
+2025-07-19 18:27:57,960 - WARNING - Invalid song data: When first the risen Lord of pow'r
+2025-07-19 18:27:57,960 - WARNING - Invalid song data: Long ago in days of old, stood a man of God we're told,
+2025-07-19 18:27:57,960 - WARNING - Invalid song data: The cross upon which Jesus died
+2025-07-19 18:27:57,960 - WARNING - Invalid song data: Have you wandered away from your Father's care,
+2025-07-19 18:27:57,961 - WARNING - Invalid song data: Why do you wait, dear brother,
+2025-07-19 18:27:57,961 - WARNING - Invalid song data: Rejoice in the Lord! Oh, let His mercy cheer;
+2025-07-19 18:27:57,961 - WARNING - Invalid song data: The Shepherd of Love is seeking the lost
+2025-07-19 18:27:57,961 - WARNING - Invalid song data: Who'll be the next to follow Jesus?
+2025-07-19 18:27:57,962 - WARNING - Invalid song data: “Almost persuaded” now to believe;
+2025-07-19 18:27:57,962 - WARNING - Invalid song data: My God, is any hour so sweet
+2025-07-19 18:27:57,962 - WARNING - Invalid song data: Prayer is the soul’s sincere desire,
+2025-07-19 18:27:57,962 - WARNING - Invalid song data: Ere you left your room this morning
+2025-07-19 18:27:57,963 - WARNING - Invalid song data: 1. What a Friend we have in Jesus,
+2025-07-19 18:27:57,963 - WARNING - Invalid song data: Sweet hour of pray'r! Sweet hour of pray'r!
+2025-07-19 18:27:57,963 - WARNING - Invalid song data: Jesus may come today,
+2025-07-19 18:27:57,963 - WARNING - Invalid song data: Marvelous message we bring
+2025-07-19 18:27:57,963 - WARNING - Invalid song data: Lift up your heads, pilgrims a-weary,
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: It may be at morn, when the day is awaking,
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: Search me, O God, and know my heart today;
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: Blessed assurance, Jesus is mine!
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: Since the Son hath made me free,
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: All things are possible to him
+2025-07-19 18:27:57,964 - WARNING - Invalid song data: BLESSED are the pure in heart,
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: Come, O my God, the promise seal,
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: Saviour from sin, I wait to prove
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: The things my God doth hate,
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: JESUS, all-atoning Lamb,
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: O Lord, how happy should we be
+2025-07-19 18:27:57,965 - WARNING - Invalid song data: Take time to be holy, speak of with thy Lord;
+2025-07-19 18:27:57,966 - WARNING - Invalid song data: Christ Jesus hath the power, the power to forgive,
+2025-07-19 18:27:57,966 - WARNING - Invalid song data: Come, Holy Ghost, all-quickening fire,
+2025-07-19 18:27:57,966 - WARNING - Invalid song data: O for a heart to praise my God,
+2025-07-19 18:27:57,966 - WARNING - Invalid song data: Another year is dawning,
+2025-07-19 18:27:57,967 - WARNING - Invalid song data: O day of rest and gladness,
+2025-07-19 18:27:57,967 - WARNING - Invalid song data: Another year is dawning, dear Father let it be,
+2025-07-19 18:27:57,967 - WARNING - Invalid song data: Does Jesus care when my heart is pained
+2025-07-19 18:27:57,967 - WARNING - Invalid song data: Wonderful love that rescued me,
+2025-07-19 18:27:57,967 - WARNING - Invalid song data: 1 I do not ask to see the way
+2025-07-19 18:27:57,968 - WARNING - Invalid song data: God has shown His loving face
+2025-07-19 18:27:57,968 - WARNING - Invalid song data: Hear the blessed Saviour Calling the oppressed,
+2025-07-19 18:27:57,968 - WARNING - Invalid song data: 1 “I am the Way,” the Saviour said,
+2025-07-19 18:27:57,968 - WARNING - Invalid song data: I was sinking deep in sin,
+2025-07-19 18:27:57,969 - WARNING - Invalid song data: Wonderful story of love;
+2025-07-19 18:27:57,969 - WARNING - Invalid song data: There is no love like the love of Jesus,
+2025-07-19 18:27:57,969 - WARNING - Invalid song data: A ruler once came to Jesus by night
+2025-07-19 18:27:57,969 - WARNING - Invalid song data: There's a line that is drawn by rejecting our Lord,
+2025-07-19 18:27:57,969 - WARNING - Invalid song data: Where will you spend eternity?
+2025-07-19 18:27:57,970 - WARNING - Invalid song data: Open my eyes, that I may see
+2025-07-19 18:27:57,970 - WARNING - Invalid song data: Crown him with many crowns,
+2025-07-19 18:27:57,970 - WARNING - Invalid song data: Jesus shall reign where'er the sun
+2025-07-19 18:27:57,970 - WARNING - Invalid song data: Rejoice, the Lord is King:
+2025-07-19 18:27:57,970 - WARNING - Invalid song data: All hail the power of Jesus' name!
+2025-07-19 18:27:57,971 - WARNING - Invalid song data: O happy day, that fixed my choice
+2025-07-19 18:27:57,971 - WARNING - Invalid song data: More about Jesus would I know,
+2025-07-19 18:27:57,971 - WARNING - Invalid song data: O perfect Love, all human thought transcending,
+2025-07-19 18:27:57,971 - WARNING - Invalid song data: More holiness give me,
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: Simply trusting every day;
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: 1 When I saw the cleansing fountain,
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: Let not thy hands be slack,
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: Speed thy servants, Saviour, speed them;
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: I gave my life for thee,
+2025-07-19 18:27:57,972 - WARNING - Invalid song data: O the bitter shame and sorrow,
+2025-07-19 18:27:57,973 - WARNING - Invalid song data: Burn fire of God! my ransomed soul possessing;
+2025-07-19 18:27:57,973 - WARNING - Invalid song data: I want my life to be all filled with praise to Thee,
+2025-07-19 18:27:57,973 - WARNING - Invalid song data: Nearer, my God, to Thee, nearer to Thee!
+2025-07-19 18:27:57,973 - WARNING - Invalid song data: Oh, do not let thy Lord depart,
+2025-07-19 18:27:57,973 - WARNING - Invalid song data: Are you longing for the fullness
+2025-07-19 18:27:57,974 - WARNING - Invalid song data: There's a call comes ringing o'er the restless wave,
+2025-07-19 18:27:57,974 - WARNING - Invalid song data: O Lord "with one accord"
+2025-07-19 18:27:57,974 - WARNING - Invalid song data: The holy Spirit's power
+2025-07-19 18:27:57,974 - WARNING - Invalid song data: Lord God, the Holy Ghost,
+2025-07-19 18:27:57,974 - WARNING - Invalid song data: Peace, perfect peace, in this dark world of sin?
+2025-07-19 18:27:57,975 - WARNING - Invalid song data: Thou hidden source of calm repose,
+2025-07-19 18:27:57,975 - WARNING - Invalid song data: One there is, above all others,
+2025-07-19 18:27:57,975 - WARNING - Invalid song data: Jesus Is The Same Forever
+2025-07-19 18:27:57,975 - WARNING - Invalid song data: I've found the pearl of greatest price,
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: A good High Priest is come,
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: Standing on the promises of Christ my King,
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: Friends all around me are trying to find
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: Is your life a channel of blessing?
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: O brother, life’s journey beginning,
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: 'Tis finished! the Messiah dies,
+2025-07-19 18:27:57,976 - WARNING - Invalid song data: From ev'ry stormy wind that blows,
+2025-07-19 18:27:57,977 - WARNING - Invalid song data: Come sing the praise of Jesus
+2025-07-19 18:27:57,977 - WARNING - Invalid song data: Jesus, my Lord will love me forever,
+2025-07-19 18:27:57,977 - WARNING - Invalid song data: 'For my sake and the gospel's, go
+2025-07-19 18:27:57,977 - WARNING - Invalid song data: Fading away like the stars of the morning
+2025-07-19 18:27:57,977 - WARNING - Invalid song data: All the darkness of the night has passed away,
+2025-07-19 18:27:57,978 - WARNING - Invalid song data: All, all to Jesus, I consecrate anew;
+2025-07-19 18:27:57,978 - WARNING - Invalid song data: Lower and lower, dear Lord, at Thy feet,
+2025-07-19 18:27:57,978 - WARNING - Invalid song data: Redeemed—how I love to proclaim it!
+2025-07-19 18:27:57,978 - WARNING - Invalid song data: Jesus, send more labourers
+2025-07-19 18:27:57,978 - WARNING - Invalid song data: Oh, to be like Thee, blessed Redeemer,
+2025-07-19 18:27:57,979 - WARNING - Invalid song data: More like the Master I would ever be,
+2025-07-19 18:27:57,979 - WARNING - Invalid song data: I know not why God’s wondrous grace
+2025-07-19 18:27:57,979 - WARNING - Invalid song data: Gracious Spirit, dwell with me:
+2025-07-19 18:27:57,979 - WARNING - Invalid song data: Storms do not alarm me, they sometime must cease,
+2025-07-19 18:27:57,980 - WARNING - Invalid song data: Impatient heart, be still!
+2025-07-19 18:27:57,980 - WARNING - Invalid song data: Upon life’s boundless ocean where mighty billows roll,
+2025-07-19 18:27:57,980 - WARNING - Invalid song data: O what a wonderful, wonderful day –
+2025-07-19 18:27:57,980 - WARNING - Invalid song data: What a wonderful change in my life has been wrought
+2025-07-19 18:27:57,981 - WARNING - Invalid song data: There’s a peace in my heart
+2025-07-19 18:27:57,981 - WARNING - Invalid song data: I was once a sinner, but I came
+2025-07-19 18:27:57,981 - WARNING - Invalid song data: 1 I am bought not with riches,
+2025-07-19 18:27:57,981 - WARNING - Invalid song data: Christ our Redeemer died on the cross,
+2025-07-19 18:27:57,981 - WARNING - Invalid song data: Have you been to Jesus for the cleansing power?
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: If the world from you withhold of its silver and its gold,
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: Wash me, O Lamb of God,
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: Onward, Christian soldiers! marching as to war,
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: Thou my everlasting Portion,
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: When we walk with the Lord
+2025-07-19 18:27:57,982 - WARNING - Invalid song data: There’s a land of peace and plenty,
+2025-07-19 18:27:57,983 - WARNING - Invalid song data: JESUS, my strength, my hope,
+2025-07-19 18:27:57,983 - WARNING - Invalid song data: O give us homes built firm upon the Saviour,
+2025-07-19 18:27:57,983 - WARNING - Invalid song data: Just as God who reigns on high
+2025-07-19 18:27:57,983 - WARNING - Invalid song data: 'Tis so sweet to trust in Jesus,
+2025-07-19 18:27:57,983 - WARNING - Invalid song data: Never be sad or desponding,
+2025-07-19 18:27:57,984 - WARNING - Invalid song data: There's a blessed land that we call Canaan,
+2025-07-19 18:27:57,984 - WARNING - Invalid song data: When you count the ones who love the Lord,
+2025-07-19 18:27:57,984 - WARNING - Invalid song data: So send I you to labour unrewarded
+2025-07-19 18:27:57,984 - WARNING - Invalid song data: Listen to the Master’s pleading,
+2025-07-19 18:27:57,984 - WARNING - Invalid song data: Anywhere with Jesus I can safely go;
+2025-07-19 18:27:57,985 - WARNING - Invalid song data: I love, I love my Master,
+2025-07-19 18:27:57,985 - WARNING - Invalid song data: Ho, reapers in the whitened harvest!
+2025-07-19 18:27:57,985 - WARNING - Invalid song data: In the harvest field now ripened
+2025-07-19 18:27:57,985 - WARNING - Invalid song data: Living below in this old sinful world,
+2025-07-19 18:27:57,985 - WARNING - Invalid song data: Go, labour on, spend, and be spent,
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: I am thinking today of that beautiful land
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: There have been names that I have loved to hear,
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: My Jesus I love Thee, I know Thou art mine;
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: Saviour, like a Shepherd, lead us,
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: Christ beside me,
+2025-07-19 18:27:57,986 - WARNING - Invalid song data: O soul, are you weary and troubled?
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: Have you any room for Jesus,
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: There is One loved me so that for me He died,
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: My hope is built on nothing less
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: There came from the skies in the days long ago,
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: The church's one foundation
+2025-07-19 18:27:57,987 - WARNING - Invalid song data: In times like these you need a Savior,
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: I have decided to follow Jesus;
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: I must needs go home by the way of the cross,
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: O for a thousand tonngues to sing,
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: Alas! and did my Savior bleed,
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: King of my life I crown thee now
+2025-07-19 18:27:57,988 - WARNING - Invalid song data: When I survey the wondrous cross
+2025-07-19 18:27:57,989 - WARNING - Invalid song data: Deeper, deeper, in the love of Jesus,
+2025-07-19 18:27:57,989 - WARNING - Invalid song data: Nothing between my soul and my Savior,
+2025-07-19 18:27:57,989 - WARNING - Invalid song data: Take my life and let it be
+2025-07-19 18:27:57,989 - WARNING - Invalid song data: "Take up thy cross and follow me,"
+2025-07-19 18:27:57,989 - WARNING - Invalid song data: O Jesus, I have promised
+2025-07-19 18:27:57,990 - WARNING - Invalid song data: O Love that wilt not let me go,
+2025-07-19 18:27:57,990 - WARNING - Invalid song data: I can hear my Savior calling,
+2025-07-19 18:27:57,990 - WARNING - Invalid song data: All to Jesus I surrender,
+2025-07-19 18:27:57,990 - WARNING - Invalid song data: More love to Thee, O Christ, more love to Thee!
+2025-07-19 18:27:57,990 - WARNING - Invalid song data: I am Thine, O Lord, I have heard Thy voice,
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: COME, Saviour, Jesus, from above!
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: Master, the tempest is raging!
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: Oft in danger, oft in woe,
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: Rise, ye children of salvation,
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: There is vict’ry within my soul
+2025-07-19 18:27:57,991 - WARNING - Invalid song data: txt
+2025-07-19 18:27:57,992 - INFO - Starting task: Loading media model...
+2025-07-19 18:27:57,996 - INFO - Starting task: Loading presentation model...
+2025-07-19 18:27:58,002 - INFO - Starting task: Loading theme model...
+2025-07-19 18:27:58,006 - INFO - Starting task: Loading scripture model...
+2025-07-19 18:27:58,011 - WARNING - No valid bibles found in data/bibles
+2025-07-19 18:27:58,011 - INFO - Starting task: Initializing main window...
+2025-07-19 18:27:58,017 - INFO - Settings saved successfully
+2025-07-19 18:27:58,018 - INFO - Settings loaded successfully
+2025-07-19 18:27:58,035 - ERROR - Failed to setup UI: Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 108, in setup_ui
+    self.toolbar = self.create_toolbar()
+                   ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 266, in create_toolbar
+    action = QAction(QIcon(icon) if icon else None, label, self)
+TypeError: arguments did not match any overloaded call:
+  QAction(parent: Optional[QObject] = None): too many arguments
+  QAction(text: Optional[str], parent: Optional[QObject] = None): argument 2 has unexpected type 'str'
+  QAction(icon: QIcon, text: Optional[str], parent: Optional[QObject] = None): argument 1 has unexpected type 'NoneType'
+
+2025-07-19 18:27:59,298 - ERROR - Failed startup task 'Initializing main window...': arguments did not match any overloaded call:
+  QAction(parent: Optional[QObject] = None): too many arguments
+  QAction(text: Optional[str], parent: Optional[QObject] = None): argument 2 has unexpected type 'str'
+  QAction(icon: QIcon, text: Optional[str], parent: Optional[QObject] = None): argument 1 has unexpected type 'NoneType'
+2025-07-19 18:27:59,299 - ERROR - [Main] INIT_006: Failed startup task 'Initializing main window...': arguments did not match any overloaded call:
+  QAction(parent: Optional[QObject] = None): too many arguments
+  QAction(text: Optional[str], parent: Optional[QObject] = None): argument 2 has unexpected type 'str'
+  QAction(icon: QIcon, text: Optional[str], parent: Optional[QObject] = None): argument 1 has unexpected type 'NoneType'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 399, in main
+    components[message] = task()
+                          ~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 390, in <lambda>
+    ("Initializing main window...", lambda: SanctifyApp())
+                                            ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 108, in setup_ui
+    self.toolbar = self.create_toolbar()
+                   ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 266, in create_toolbar
+    action = QAction(QIcon(icon) if icon else None, label, self)
+TypeError: arguments did not match any overloaded call:
+  QAction(parent: Optional[QObject] = None): too many arguments
+  QAction(text: Optional[str], parent: Optional[QObject] = None): argument 2 has unexpected type 'str'
+  QAction(icon: QIcon, text: Optional[str], parent: Optional[QObject] = None): argument 1 has unexpected type 'NoneType'
+2025-07-19 18:27:59,302 - ERROR - SanctifyError: [Main] INIT_006: Failed startup task 'Initializing main window...': arguments did not match any overloaded call:
+  QAction(parent: Optional[QObject] = None): too many arguments
+  QAction(text: Optional[str], parent: Optional[QObject] = None): argument 2 has unexpected type 'str'
+  QAction(icon: QIcon, text: Optional[str], parent: Optional[QObject] = None): argument 1 has unexpected type 'NoneType'
+2025-07-19 18:44:10,524 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:44:10,524 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:44:10,525 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:44:10,527 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:44:10,533 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:44:10,536 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:44:10,536 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:44:10,537 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:44:10,538 - INFO - Setting up main logging
+2025-07-19 18:44:10,539 - INFO - Main logging setup complete
+2025-07-19 18:44:10,539 - INFO - Entering main block
+2025-07-19 18:44:10,539 - INFO - Starting Sanctify Live...
+2025-07-19 18:44:10,540 - INFO - Enabling high-DPI scaling
+2025-07-19 18:44:10,541 - INFO - Initializing QApplication
+2025-07-19 18:44:10,660 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:44:10,661 - INFO - Ensuring directories
+2025-07-19 18:44:10,661 - INFO - Checking directory: data/config
+2025-07-19 18:44:10,662 - INFO - Checking directory: data/logs
+2025-07-19 18:44:10,662 - INFO - Checking directory: data/songs
+2025-07-19 18:44:10,663 - INFO - Checking directory: data/media/Images
+2025-07-19 18:44:10,663 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:44:10,663 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:44:10,664 - INFO - Checking directory: data/presentations
+2025-07-19 18:44:10,664 - INFO - Checking directory: data/themes
+2025-07-19 18:44:10,665 - INFO - Checking directory: data/bibles
+2025-07-19 18:44:10,665 - INFO - Checking directory: assets/translations
+2025-07-19 18:44:10,665 - INFO - All directories ensured
+2025-07-19 18:44:10,665 - INFO - Directories ensured
+2025-07-19 18:44:10,666 - INFO - Initializing SettingsManager
+2025-07-19 18:44:10,668 - INFO - Settings saved successfully
+2025-07-19 18:44:10,668 - INFO - Settings loaded successfully
+2025-07-19 18:44:10,668 - INFO - SettingsManager initialized
+2025-07-19 18:44:10,668 - INFO - Validating assets
+2025-07-19 18:44:10,669 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:44:10,669 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:44:10,669 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:44:10,670 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:44:10,670 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:44:10,670 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:44:10,670 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:44:10,671 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:44:10,671 - INFO - Asset validation complete
+2025-07-19 18:44:10,671 - INFO - Assets validated
+2025-07-19 18:44:10,672 - INFO - Validating data files
+2025-07-19 18:44:10,672 - INFO - Starting data file validation
+2025-07-19 18:44:10,672 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:44:10,673 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:44:10,674 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:44:10,674 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:44:10,674 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:44:10,675 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:44:10,675 - INFO - Data file validation complete
+2025-07-19 18:44:10,676 - INFO - Data files validated
+2025-07-19 18:44:10,676 - INFO - Validating settings paths
+2025-07-19 18:44:10,676 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:44:10,681 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:44:10,683 - WARNING - Skipping path validation due to error: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:44:12,132 - INFO - Loading translations
+2025-07-19 18:44:12,133 - INFO - Translations loaded
+2025-07-19 18:44:12,134 - INFO - Showing splash screen
+2025-07-19 18:44:12,190 - INFO - Splash screen shown
+2025-07-19 18:44:12,192 - INFO - Initializing components
+2025-07-19 18:44:12,192 - INFO - Starting task: Loading song model...
+2025-07-19 18:44:12,200 - WARNING - Invalid song data: Is there a heart o'er-bound by sorrow?
+2025-07-19 18:44:12,203 - WARNING - Invalid song data: O for a thousand tongues to sing
+2025-07-19 18:44:12,204 - WARNING - Invalid song data: Christ, our mighty Captain, leads against the foe;
+2025-07-19 18:44:12,205 - WARNING - Invalid song data: I know my heav’nly Father knows
+2025-07-19 18:44:12,205 - WARNING - Invalid song data: ON THE CROSS CRUCIFIED, IN GREAT SORROW HE DIED;
+2025-07-19 18:44:12,206 - WARNING - Invalid song data: 
+2025-07-19 18:44:12,206 - WARNING - Invalid song data: 1 Are you trusting the love of the Savior divine,
+2025-07-19 18:44:12,206 - WARNING - Invalid song data: 1. Tell the whole wide world of Jesus,
+2025-07-19 18:44:12,207 - WARNING - Invalid song data: Send the gospel of salvation,
+2025-07-19 18:44:12,207 - WARNING - Invalid song data: "Must I go and empty-handed,"
+2025-07-19 18:44:12,207 - WARNING - Invalid song data: To the work! to the work! we are servants of God,
+2025-07-19 18:44:12,208 - WARNING - Invalid song data: I will tell to all that God is love;
+2025-07-19 18:44:12,209 - WARNING - Invalid song data: Rescue the perishing, care for the dying,
+2025-07-19 18:44:12,212 - WARNING - Invalid song data: 1 If to Christ our only king
+2025-07-19 18:44:12,216 - WARNING - Invalid song data: Go and tell the story to thy friends to-day,
+2025-07-19 18:44:12,216 - WARNING - Invalid song data: How to reach the masses, men of every birth,
+2025-07-19 18:44:12,217 - WARNING - Invalid song data: Carry your Bible with you,
+2025-07-19 18:44:12,218 - WARNING - Invalid song data: Sing a song, spread some cheer,
+2025-07-19 18:44:12,220 - WARNING - Invalid song data: I love to tell the story
+2025-07-19 18:44:12,221 - WARNING - Invalid song data: Many a soul in the battle of life
+2025-07-19 18:44:12,224 - WARNING - Invalid song data: Praise Him! Praise Him! Jesus our blessed Redeemer,
+2025-07-19 18:44:12,224 - WARNING - Invalid song data: Speak just a word for Jesus,
+2025-07-19 18:44:12,224 - WARNING - Invalid song data: If you've found Jesus
+2025-07-19 18:44:12,224 - WARNING - Invalid song data: Out in the darkness of sorrow and sin,
+2025-07-19 18:44:12,225 - WARNING - Invalid song data: There’s no one like my Saviour,
+2025-07-19 18:44:12,226 - WARNING - Invalid song data: Sinners Jesus will receive:
+2025-07-19 18:44:12,227 - WARNING - Invalid song data: Wonderful Grace of Jesus, greater than all my sin;
+2025-07-19 18:44:12,227 - WARNING - Invalid song data: Great God of wonders!
+2025-07-19 18:44:12,228 - WARNING - Invalid song data: I heard an old, old story,
+2025-07-19 18:44:12,228 - WARNING - Invalid song data: Just as I am, without one plea,
+2025-07-19 18:44:12,228 - WARNING - Invalid song data: In tenderness He sought me,
+2025-07-19 18:44:12,229 - WARNING - Invalid song data: Since the Saviour came to this heart of mine
+2025-07-19 18:44:12,231 - WARNING - Invalid song data: Out of my bondage, sorrow and night,
+2025-07-19 18:44:12,234 - WARNING - Invalid song data: Tell me the old, old story
+2025-07-19 18:44:12,236 - WARNING - Invalid song data: Years I spent in vanity and pride,
+2025-07-19 18:44:12,239 - WARNING - Invalid song data: We read of a place that’s called heaven,
+2025-07-19 18:44:12,242 - WARNING - Invalid song data: There is a Home eternal,
+2025-07-19 18:44:12,246 - WARNING - Invalid song data: On the mountain of Zion beyond the blue sky,
+2025-07-19 18:44:12,249 - WARNING - Invalid song data: I shall see the King
+2025-07-19 18:44:12,250 - WARNING - Invalid song data: There is singing up in Heaven
+2025-07-19 18:44:12,253 - WARNING - Invalid song data: When I come to the end of the long, long road,
+2025-07-19 18:44:12,256 - WARNING - Invalid song data: When I come to the river at the ending of day
+2025-07-19 18:44:12,258 - WARNING - Invalid song data: There’s a land beyond the river,
+2025-07-19 18:44:12,259 - WARNING - Invalid song data: Face to face with Christ, my Saviour,
+2025-07-19 18:44:12,262 - WARNING - Invalid song data: There's a land that is fairer than day,
+2025-07-19 18:44:12,264 - WARNING - Invalid song data: 1. No tears in heaven, no sorrows given.
+2025-07-19 18:44:12,265 - WARNING - Invalid song data: Lord, as of old, at Pentecost,
+2025-07-19 18:44:12,268 - WARNING - Invalid song data: Joys are flowing like a river,
+2025-07-19 18:44:12,268 - WARNING - Invalid song data: When first the risen Lord of pow'r
+2025-07-19 18:44:12,268 - WARNING - Invalid song data: Long ago in days of old, stood a man of God we're told,
+2025-07-19 18:44:12,269 - WARNING - Invalid song data: The cross upon which Jesus died
+2025-07-19 18:44:12,271 - WARNING - Invalid song data: Have you wandered away from your Father's care,
+2025-07-19 18:44:12,272 - WARNING - Invalid song data: Why do you wait, dear brother,
+2025-07-19 18:44:12,274 - WARNING - Invalid song data: Rejoice in the Lord! Oh, let His mercy cheer;
+2025-07-19 18:44:12,274 - WARNING - Invalid song data: The Shepherd of Love is seeking the lost
+2025-07-19 18:44:12,275 - WARNING - Invalid song data: Who'll be the next to follow Jesus?
+2025-07-19 18:44:12,275 - WARNING - Invalid song data: “Almost persuaded” now to believe;
+2025-07-19 18:44:12,275 - WARNING - Invalid song data: My God, is any hour so sweet
+2025-07-19 18:44:12,275 - WARNING - Invalid song data: Prayer is the soul’s sincere desire,
+2025-07-19 18:44:12,275 - WARNING - Invalid song data: Ere you left your room this morning
+2025-07-19 18:44:12,276 - WARNING - Invalid song data: 1. What a Friend we have in Jesus,
+2025-07-19 18:44:12,276 - WARNING - Invalid song data: Sweet hour of pray'r! Sweet hour of pray'r!
+2025-07-19 18:44:12,276 - WARNING - Invalid song data: Jesus may come today,
+2025-07-19 18:44:12,277 - WARNING - Invalid song data: Marvelous message we bring
+2025-07-19 18:44:12,277 - WARNING - Invalid song data: Lift up your heads, pilgrims a-weary,
+2025-07-19 18:44:12,277 - WARNING - Invalid song data: It may be at morn, when the day is awaking,
+2025-07-19 18:44:12,277 - WARNING - Invalid song data: Search me, O God, and know my heart today;
+2025-07-19 18:44:12,277 - WARNING - Invalid song data: Blessed assurance, Jesus is mine!
+2025-07-19 18:44:12,278 - WARNING - Invalid song data: Since the Son hath made me free,
+2025-07-19 18:44:12,278 - WARNING - Invalid song data: All things are possible to him
+2025-07-19 18:44:12,278 - WARNING - Invalid song data: BLESSED are the pure in heart,
+2025-07-19 18:44:12,278 - WARNING - Invalid song data: Come, O my God, the promise seal,
+2025-07-19 18:44:12,278 - WARNING - Invalid song data: Saviour from sin, I wait to prove
+2025-07-19 18:44:12,279 - WARNING - Invalid song data: The things my God doth hate,
+2025-07-19 18:44:12,279 - WARNING - Invalid song data: JESUS, all-atoning Lamb,
+2025-07-19 18:44:12,279 - WARNING - Invalid song data: O Lord, how happy should we be
+2025-07-19 18:44:12,279 - WARNING - Invalid song data: Take time to be holy, speak of with thy Lord;
+2025-07-19 18:44:12,279 - WARNING - Invalid song data: Christ Jesus hath the power, the power to forgive,
+2025-07-19 18:44:12,280 - WARNING - Invalid song data: Come, Holy Ghost, all-quickening fire,
+2025-07-19 18:44:12,280 - WARNING - Invalid song data: O for a heart to praise my God,
+2025-07-19 18:44:12,280 - WARNING - Invalid song data: Another year is dawning,
+2025-07-19 18:44:12,280 - WARNING - Invalid song data: O day of rest and gladness,
+2025-07-19 18:44:12,280 - WARNING - Invalid song data: Another year is dawning, dear Father let it be,
+2025-07-19 18:44:12,281 - WARNING - Invalid song data: Does Jesus care when my heart is pained
+2025-07-19 18:44:12,281 - WARNING - Invalid song data: Wonderful love that rescued me,
+2025-07-19 18:44:12,281 - WARNING - Invalid song data: 1 I do not ask to see the way
+2025-07-19 18:44:12,282 - WARNING - Invalid song data: God has shown His loving face
+2025-07-19 18:44:12,282 - WARNING - Invalid song data: Hear the blessed Saviour Calling the oppressed,
+2025-07-19 18:44:12,282 - WARNING - Invalid song data: 1 “I am the Way,” the Saviour said,
+2025-07-19 18:44:12,282 - WARNING - Invalid song data: I was sinking deep in sin,
+2025-07-19 18:44:12,283 - WARNING - Invalid song data: Wonderful story of love;
+2025-07-19 18:44:12,283 - WARNING - Invalid song data: There is no love like the love of Jesus,
+2025-07-19 18:44:12,283 - WARNING - Invalid song data: A ruler once came to Jesus by night
+2025-07-19 18:44:12,283 - WARNING - Invalid song data: There's a line that is drawn by rejecting our Lord,
+2025-07-19 18:44:12,283 - WARNING - Invalid song data: Where will you spend eternity?
+2025-07-19 18:44:12,284 - WARNING - Invalid song data: Open my eyes, that I may see
+2025-07-19 18:44:12,284 - WARNING - Invalid song data: Crown him with many crowns,
+2025-07-19 18:44:12,284 - WARNING - Invalid song data: Jesus shall reign where'er the sun
+2025-07-19 18:44:12,284 - WARNING - Invalid song data: Rejoice, the Lord is King:
+2025-07-19 18:44:12,284 - WARNING - Invalid song data: All hail the power of Jesus' name!
+2025-07-19 18:44:12,285 - WARNING - Invalid song data: O happy day, that fixed my choice
+2025-07-19 18:44:12,285 - WARNING - Invalid song data: More about Jesus would I know,
+2025-07-19 18:44:12,285 - WARNING - Invalid song data: O perfect Love, all human thought transcending,
+2025-07-19 18:44:12,285 - WARNING - Invalid song data: More holiness give me,
+2025-07-19 18:44:12,285 - WARNING - Invalid song data: Simply trusting every day;
+2025-07-19 18:44:12,286 - WARNING - Invalid song data: 1 When I saw the cleansing fountain,
+2025-07-19 18:44:12,286 - WARNING - Invalid song data: Let not thy hands be slack,
+2025-07-19 18:44:12,286 - WARNING - Invalid song data: Speed thy servants, Saviour, speed them;
+2025-07-19 18:44:12,286 - WARNING - Invalid song data: I gave my life for thee,
+2025-07-19 18:44:12,286 - WARNING - Invalid song data: O the bitter shame and sorrow,
+2025-07-19 18:44:12,287 - WARNING - Invalid song data: Burn fire of God! my ransomed soul possessing;
+2025-07-19 18:44:12,287 - WARNING - Invalid song data: I want my life to be all filled with praise to Thee,
+2025-07-19 18:44:12,287 - WARNING - Invalid song data: Nearer, my God, to Thee, nearer to Thee!
+2025-07-19 18:44:12,287 - WARNING - Invalid song data: Oh, do not let thy Lord depart,
+2025-07-19 18:44:12,287 - WARNING - Invalid song data: Are you longing for the fullness
+2025-07-19 18:44:12,288 - WARNING - Invalid song data: There's a call comes ringing o'er the restless wave,
+2025-07-19 18:44:12,288 - WARNING - Invalid song data: O Lord "with one accord"
+2025-07-19 18:44:12,288 - WARNING - Invalid song data: The holy Spirit's power
+2025-07-19 18:44:12,288 - WARNING - Invalid song data: Lord God, the Holy Ghost,
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: Peace, perfect peace, in this dark world of sin?
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: Thou hidden source of calm repose,
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: One there is, above all others,
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: Jesus Is The Same Forever
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: I've found the pearl of greatest price,
+2025-07-19 18:44:12,289 - WARNING - Invalid song data: A good High Priest is come,
+2025-07-19 18:44:12,290 - WARNING - Invalid song data: Standing on the promises of Christ my King,
+2025-07-19 18:44:12,290 - WARNING - Invalid song data: Friends all around me are trying to find
+2025-07-19 18:44:12,290 - WARNING - Invalid song data: Is your life a channel of blessing?
+2025-07-19 18:44:12,290 - WARNING - Invalid song data: O brother, life’s journey beginning,
+2025-07-19 18:44:12,290 - WARNING - Invalid song data: 'Tis finished! the Messiah dies,
+2025-07-19 18:44:12,291 - WARNING - Invalid song data: From ev'ry stormy wind that blows,
+2025-07-19 18:44:12,291 - WARNING - Invalid song data: Come sing the praise of Jesus
+2025-07-19 18:44:12,291 - WARNING - Invalid song data: Jesus, my Lord will love me forever,
+2025-07-19 18:44:12,291 - WARNING - Invalid song data: 'For my sake and the gospel's, go
+2025-07-19 18:44:12,292 - WARNING - Invalid song data: Fading away like the stars of the morning
+2025-07-19 18:44:12,292 - WARNING - Invalid song data: All the darkness of the night has passed away,
+2025-07-19 18:44:12,292 - WARNING - Invalid song data: All, all to Jesus, I consecrate anew;
+2025-07-19 18:44:12,292 - WARNING - Invalid song data: Lower and lower, dear Lord, at Thy feet,
+2025-07-19 18:44:12,292 - WARNING - Invalid song data: Redeemed—how I love to proclaim it!
+2025-07-19 18:44:12,293 - WARNING - Invalid song data: Jesus, send more labourers
+2025-07-19 18:44:12,293 - WARNING - Invalid song data: Oh, to be like Thee, blessed Redeemer,
+2025-07-19 18:44:12,293 - WARNING - Invalid song data: More like the Master I would ever be,
+2025-07-19 18:44:12,293 - WARNING - Invalid song data: I know not why God’s wondrous grace
+2025-07-19 18:44:12,294 - WARNING - Invalid song data: Gracious Spirit, dwell with me:
+2025-07-19 18:44:12,294 - WARNING - Invalid song data: Storms do not alarm me, they sometime must cease,
+2025-07-19 18:44:12,294 - WARNING - Invalid song data: Impatient heart, be still!
+2025-07-19 18:44:12,295 - WARNING - Invalid song data: Upon life’s boundless ocean where mighty billows roll,
+2025-07-19 18:44:12,295 - WARNING - Invalid song data: O what a wonderful, wonderful day –
+2025-07-19 18:44:12,295 - WARNING - Invalid song data: What a wonderful change in my life has been wrought
+2025-07-19 18:44:12,295 - WARNING - Invalid song data: There’s a peace in my heart
+2025-07-19 18:44:12,296 - WARNING - Invalid song data: I was once a sinner, but I came
+2025-07-19 18:44:12,296 - WARNING - Invalid song data: 1 I am bought not with riches,
+2025-07-19 18:44:12,296 - WARNING - Invalid song data: Christ our Redeemer died on the cross,
+2025-07-19 18:44:12,296 - WARNING - Invalid song data: Have you been to Jesus for the cleansing power?
+2025-07-19 18:44:12,297 - WARNING - Invalid song data: If the world from you withhold of its silver and its gold,
+2025-07-19 18:44:12,297 - WARNING - Invalid song data: Wash me, O Lamb of God,
+2025-07-19 18:44:12,297 - WARNING - Invalid song data: Onward, Christian soldiers! marching as to war,
+2025-07-19 18:44:12,298 - WARNING - Invalid song data: Thou my everlasting Portion,
+2025-07-19 18:44:12,300 - WARNING - Invalid song data: When we walk with the Lord
+2025-07-19 18:44:12,300 - WARNING - Invalid song data: There’s a land of peace and plenty,
+2025-07-19 18:44:12,301 - WARNING - Invalid song data: JESUS, my strength, my hope,
+2025-07-19 18:44:12,303 - WARNING - Invalid song data: O give us homes built firm upon the Saviour,
+2025-07-19 18:44:12,303 - WARNING - Invalid song data: Just as God who reigns on high
+2025-07-19 18:44:12,304 - WARNING - Invalid song data: 'Tis so sweet to trust in Jesus,
+2025-07-19 18:44:12,304 - WARNING - Invalid song data: Never be sad or desponding,
+2025-07-19 18:44:12,304 - WARNING - Invalid song data: There's a blessed land that we call Canaan,
+2025-07-19 18:44:12,305 - WARNING - Invalid song data: When you count the ones who love the Lord,
+2025-07-19 18:44:12,305 - WARNING - Invalid song data: So send I you to labour unrewarded
+2025-07-19 18:44:12,305 - WARNING - Invalid song data: Listen to the Master’s pleading,
+2025-07-19 18:44:12,305 - WARNING - Invalid song data: Anywhere with Jesus I can safely go;
+2025-07-19 18:44:12,305 - WARNING - Invalid song data: I love, I love my Master,
+2025-07-19 18:44:12,306 - WARNING - Invalid song data: Ho, reapers in the whitened harvest!
+2025-07-19 18:44:12,306 - WARNING - Invalid song data: In the harvest field now ripened
+2025-07-19 18:44:12,306 - WARNING - Invalid song data: Living below in this old sinful world,
+2025-07-19 18:44:12,307 - WARNING - Invalid song data: Go, labour on, spend, and be spent,
+2025-07-19 18:44:12,307 - WARNING - Invalid song data: I am thinking today of that beautiful land
+2025-07-19 18:44:12,307 - WARNING - Invalid song data: There have been names that I have loved to hear,
+2025-07-19 18:44:12,308 - WARNING - Invalid song data: My Jesus I love Thee, I know Thou art mine;
+2025-07-19 18:44:12,308 - WARNING - Invalid song data: Saviour, like a Shepherd, lead us,
+2025-07-19 18:44:12,309 - WARNING - Invalid song data: Christ beside me,
+2025-07-19 18:44:12,309 - WARNING - Invalid song data: O soul, are you weary and troubled?
+2025-07-19 18:44:12,309 - WARNING - Invalid song data: Have you any room for Jesus,
+2025-07-19 18:44:12,309 - WARNING - Invalid song data: There is One loved me so that for me He died,
+2025-07-19 18:44:12,310 - WARNING - Invalid song data: My hope is built on nothing less
+2025-07-19 18:44:12,310 - WARNING - Invalid song data: There came from the skies in the days long ago,
+2025-07-19 18:44:12,310 - WARNING - Invalid song data: The church's one foundation
+2025-07-19 18:44:12,310 - WARNING - Invalid song data: In times like these you need a Savior,
+2025-07-19 18:44:12,311 - WARNING - Invalid song data: I have decided to follow Jesus;
+2025-07-19 18:44:12,311 - WARNING - Invalid song data: I must needs go home by the way of the cross,
+2025-07-19 18:44:12,311 - WARNING - Invalid song data: O for a thousand tonngues to sing,
+2025-07-19 18:44:12,311 - WARNING - Invalid song data: Alas! and did my Savior bleed,
+2025-07-19 18:44:12,312 - WARNING - Invalid song data: King of my life I crown thee now
+2025-07-19 18:44:12,312 - WARNING - Invalid song data: When I survey the wondrous cross
+2025-07-19 18:44:12,312 - WARNING - Invalid song data: Deeper, deeper, in the love of Jesus,
+2025-07-19 18:44:12,312 - WARNING - Invalid song data: Nothing between my soul and my Savior,
+2025-07-19 18:44:12,312 - WARNING - Invalid song data: Take my life and let it be
+2025-07-19 18:44:12,313 - WARNING - Invalid song data: "Take up thy cross and follow me,"
+2025-07-19 18:44:12,313 - WARNING - Invalid song data: O Jesus, I have promised
+2025-07-19 18:44:12,313 - WARNING - Invalid song data: O Love that wilt not let me go,
+2025-07-19 18:44:12,313 - WARNING - Invalid song data: I can hear my Savior calling,
+2025-07-19 18:44:12,313 - WARNING - Invalid song data: All to Jesus I surrender,
+2025-07-19 18:44:12,314 - WARNING - Invalid song data: More love to Thee, O Christ, more love to Thee!
+2025-07-19 18:44:12,314 - WARNING - Invalid song data: I am Thine, O Lord, I have heard Thy voice,
+2025-07-19 18:44:12,314 - WARNING - Invalid song data: COME, Saviour, Jesus, from above!
+2025-07-19 18:44:12,314 - WARNING - Invalid song data: Master, the tempest is raging!
+2025-07-19 18:44:12,315 - WARNING - Invalid song data: Oft in danger, oft in woe,
+2025-07-19 18:44:12,315 - WARNING - Invalid song data: Rise, ye children of salvation,
+2025-07-19 18:44:12,315 - WARNING - Invalid song data: There is vict’ry within my soul
+2025-07-19 18:44:12,315 - WARNING - Invalid song data: txt
+2025-07-19 18:44:12,316 - INFO - Starting task: Loading media model...
+2025-07-19 18:44:12,322 - INFO - Starting task: Loading presentation model...
+2025-07-19 18:44:12,327 - INFO - Starting task: Loading theme model...
+2025-07-19 18:44:12,333 - INFO - Starting task: Loading scripture model...
+2025-07-19 18:44:12,339 - WARNING - No valid bibles found in data/bibles
+2025-07-19 18:44:12,339 - INFO - Starting task: Initializing main window...
+2025-07-19 18:44:12,345 - INFO - Settings saved successfully
+2025-07-19 18:44:12,346 - INFO - Settings loaded successfully
+2025-07-19 18:44:12,438 - ERROR - Failed to setup UI: Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 127, in setup_ui
+    self.interaction_panel = self.create_interaction_panel()
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 360, in create_interaction_panel
+    self.schedule_list = QListWidget()
+                         ^^^^^^^^^^^
+NameError: name 'QListWidget' is not defined. Did you mean: 'QTabWidget'?
+
+2025-07-19 18:44:13,239 - ERROR - Failed startup task 'Initializing main window...': name 'QListWidget' is not defined
+2025-07-19 18:44:13,239 - ERROR - [Main] INIT_006: Failed startup task 'Initializing main window...': name 'QListWidget' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 399, in main
+    components[message] = task()
+                          ~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 390, in <lambda>
+    ("Initializing main window...", lambda: SanctifyApp())
+                                            ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 127, in setup_ui
+    self.interaction_panel = self.create_interaction_panel()
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 360, in create_interaction_panel
+    self.schedule_list = QListWidget()
+                         ^^^^^^^^^^^
+NameError: name 'QListWidget' is not defined. Did you mean: 'QTabWidget'?
+2025-07-19 18:44:13,243 - ERROR - SanctifyError: [Main] INIT_006: Failed startup task 'Initializing main window...': name 'QListWidget' is not defined
+2025-07-19 18:48:26,400 - INFO - Imported ui.main_window.SanctifyApp
+2025-07-19 18:48:26,401 - INFO - Imported core.settings_manager.SettingsManager
+2025-07-19 18:48:26,401 - INFO - Imported core.exceptions.SanctifyError
+2025-07-19 18:48:26,403 - INFO - Imported models.song_model.SongModel
+2025-07-19 18:48:26,409 - INFO - Imported models.media_model.MediaModel
+2025-07-19 18:48:26,412 - INFO - Imported models.presentation_model.PresentationModel
+2025-07-19 18:48:26,412 - INFO - Imported models.theme_model.ThemeModel
+2025-07-19 18:48:26,413 - INFO - Imported models.scripture_model.ScriptureModel
+2025-07-19 18:48:26,414 - INFO - Setting up main logging
+2025-07-19 18:48:26,415 - INFO - Main logging setup complete
+2025-07-19 18:48:26,415 - INFO - Entering main block
+2025-07-19 18:48:26,415 - INFO - Starting Sanctify Live...
+2025-07-19 18:48:26,415 - INFO - Enabling high-DPI scaling
+2025-07-19 18:48:26,417 - INFO - Initializing QApplication
+2025-07-19 18:48:26,533 - INFO - Application: Sanctify Live v1.0.1
+2025-07-19 18:48:26,534 - INFO - Ensuring directories
+2025-07-19 18:48:26,534 - INFO - Checking directory: data/config
+2025-07-19 18:48:26,534 - INFO - Checking directory: data/logs
+2025-07-19 18:48:26,535 - INFO - Checking directory: data/songs
+2025-07-19 18:48:26,535 - INFO - Checking directory: data/media/Images
+2025-07-19 18:48:26,536 - INFO - Checking directory: data/media/Videos
+2025-07-19 18:48:26,536 - INFO - Checking directory: data/media/Gifs
+2025-07-19 18:48:26,536 - INFO - Checking directory: data/presentations
+2025-07-19 18:48:26,537 - INFO - Checking directory: data/themes
+2025-07-19 18:48:26,537 - INFO - Checking directory: data/bibles
+2025-07-19 18:48:26,538 - INFO - Checking directory: assets/translations
+2025-07-19 18:48:26,538 - INFO - All directories ensured
+2025-07-19 18:48:26,538 - INFO - Directories ensured
+2025-07-19 18:48:26,538 - INFO - Initializing SettingsManager
+2025-07-19 18:48:26,540 - INFO - Settings saved successfully
+2025-07-19 18:48:26,540 - INFO - Settings loaded successfully
+2025-07-19 18:48:26,541 - INFO - SettingsManager initialized
+2025-07-19 18:48:26,541 - INFO - Validating assets
+2025-07-19 18:48:26,541 - INFO - Checking asset: assets/images/splash.png
+2025-07-19 18:48:26,541 - INFO - Checking asset: assets/icons/settings.png
+2025-07-19 18:48:26,542 - INFO - Checking asset: assets/icons/browse.png
+2025-07-19 18:48:26,542 - INFO - Checking asset: assets/icons/alert.png
+2025-07-19 18:48:26,542 - INFO - Checking asset: assets/icons/logo.png
+2025-07-19 18:48:26,542 - INFO - Checking asset: assets/icons/black.png
+2025-07-19 18:48:26,543 - INFO - Checking asset: assets/icons/white.png
+2025-07-19 18:48:26,543 - INFO - Checking asset: assets/icons/live.png
+2025-07-19 18:48:26,543 - INFO - Asset validation complete
+2025-07-19 18:48:26,544 - INFO - Assets validated
+2025-07-19 18:48:26,544 - INFO - Validating data files
+2025-07-19 18:48:26,544 - INFO - Starting data file validation
+2025-07-19 18:48:26,544 - INFO - Settings loaded: {'general': {'startup_screen': 'Songs', 'language': 'English', 'enable_tips': True, 'window_geometry': {'width': 1280, 'height': 720, 'x': 100, 'y': 100}}, 'appearance': {'theme': 'Light', 'ui_font': 'Arial,12,-1,5,50,0,0,0,0,0', 'enable_animations': True}, 'paths': {'songs': 'data/songs/songs.json', 'media': 'data/media', 'media_metadata': 'data/media/media.json', 'presentations': 'data/presentations/presentations.json', 'themes': 'data/themes/themes.json', 'bibles': 'data/bibles', 'bible_versions_dir': 'data/bibles', 'media_folder': 'data/media', 'songs_file': 'data/songs/songs.json', 'presentations_file': 'data/presentations/presentations.json', 'themes_file': 'data/themes/themes.json'}, 'behavior': {'auto_save_interval': 300, 'confirm_before_delete': True, 'default_playback_speed': 1.0}, 'advanced': {'developer_mode': False, 'log_level': 'INFO'}, 'accessibility': {'high_contrast': False}}
+2025-07-19 18:48:26,545 - INFO - Checking data file: data/songs/songs.json
+2025-07-19 18:48:26,545 - INFO - Checking data file: data/media/media.json
+2025-07-19 18:48:26,546 - INFO - Checking data file: data/presentations/presentations.json
+2025-07-19 18:48:26,546 - INFO - Checking data file: data/themes/themes.json
+2025-07-19 18:48:26,547 - INFO - Checking data file: data/config/settings.json
+2025-07-19 18:48:26,547 - INFO - Data file validation complete
+2025-07-19 18:48:26,547 - INFO - Data files validated
+2025-07-19 18:48:26,548 - INFO - Validating settings paths
+2025-07-19 18:48:26,548 - ERROR - [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+2025-07-19 18:48:26,554 - ERROR - [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 150, in get_setting
+    return self.settings[section][key]
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 221, in validate_paths
+    paths = self.get_setting("paths", {}, self.default_settings["paths"])
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\core\settings_manager.py", line 154, in get_setting
+    raise SanctifyError("SettingsManager", "GET_001", f"Error retrieving setting {section}.{key}: {e}")
+core.exceptions.SanctifyError: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:48:26,555 - WARNING - Skipping path validation due to error: [SettingsManager] PATH_VALIDATE_001: Error validating paths: [SettingsManager] GET_001: Error retrieving setting paths.{}: unhashable type: 'dict'
+2025-07-19 18:48:28,730 - INFO - Loading translations
+2025-07-19 18:48:28,732 - INFO - Translations loaded
+2025-07-19 18:48:28,732 - INFO - Showing splash screen
+2025-07-19 18:48:28,789 - INFO - Splash screen shown
+2025-07-19 18:48:28,789 - INFO - Initializing components
+2025-07-19 18:48:28,790 - INFO - Starting task: Loading song model...
+2025-07-19 18:48:28,796 - WARNING - Invalid song data: Is there a heart o'er-bound by sorrow?
+2025-07-19 18:48:28,796 - WARNING - Invalid song data: O for a thousand tongues to sing
+2025-07-19 18:48:28,796 - WARNING - Invalid song data: Christ, our mighty Captain, leads against the foe;
+2025-07-19 18:48:28,797 - WARNING - Invalid song data: I know my heav’nly Father knows
+2025-07-19 18:48:28,797 - WARNING - Invalid song data: ON THE CROSS CRUCIFIED, IN GREAT SORROW HE DIED;
+2025-07-19 18:48:28,797 - WARNING - Invalid song data: 
+2025-07-19 18:48:28,797 - WARNING - Invalid song data: 1 Are you trusting the love of the Savior divine,
+2025-07-19 18:48:28,798 - WARNING - Invalid song data: 1. Tell the whole wide world of Jesus,
+2025-07-19 18:48:28,798 - WARNING - Invalid song data: Send the gospel of salvation,
+2025-07-19 18:48:28,799 - WARNING - Invalid song data: "Must I go and empty-handed,"
+2025-07-19 18:48:28,799 - WARNING - Invalid song data: To the work! to the work! we are servants of God,
+2025-07-19 18:48:28,799 - WARNING - Invalid song data: I will tell to all that God is love;
+2025-07-19 18:48:28,800 - WARNING - Invalid song data: Rescue the perishing, care for the dying,
+2025-07-19 18:48:28,800 - WARNING - Invalid song data: 1 If to Christ our only king
+2025-07-19 18:48:28,801 - WARNING - Invalid song data: Go and tell the story to thy friends to-day,
+2025-07-19 18:48:28,801 - WARNING - Invalid song data: How to reach the masses, men of every birth,
+2025-07-19 18:48:28,802 - WARNING - Invalid song data: Carry your Bible with you,
+2025-07-19 18:48:28,802 - WARNING - Invalid song data: Sing a song, spread some cheer,
+2025-07-19 18:48:28,802 - WARNING - Invalid song data: I love to tell the story
+2025-07-19 18:48:28,803 - WARNING - Invalid song data: Many a soul in the battle of life
+2025-07-19 18:48:28,803 - WARNING - Invalid song data: Praise Him! Praise Him! Jesus our blessed Redeemer,
+2025-07-19 18:48:28,803 - WARNING - Invalid song data: Speak just a word for Jesus,
+2025-07-19 18:48:28,803 - WARNING - Invalid song data: If you've found Jesus
+2025-07-19 18:48:28,804 - WARNING - Invalid song data: Out in the darkness of sorrow and sin,
+2025-07-19 18:48:28,804 - WARNING - Invalid song data: There’s no one like my Saviour,
+2025-07-19 18:48:28,804 - WARNING - Invalid song data: Sinners Jesus will receive:
+2025-07-19 18:48:28,805 - WARNING - Invalid song data: Wonderful Grace of Jesus, greater than all my sin;
+2025-07-19 18:48:28,805 - WARNING - Invalid song data: Great God of wonders!
+2025-07-19 18:48:28,805 - WARNING - Invalid song data: I heard an old, old story,
+2025-07-19 18:48:28,805 - WARNING - Invalid song data: Just as I am, without one plea,
+2025-07-19 18:48:28,806 - WARNING - Invalid song data: In tenderness He sought me,
+2025-07-19 18:48:28,806 - WARNING - Invalid song data: Since the Saviour came to this heart of mine
+2025-07-19 18:48:28,806 - WARNING - Invalid song data: Out of my bondage, sorrow and night,
+2025-07-19 18:48:28,806 - WARNING - Invalid song data: Tell me the old, old story
+2025-07-19 18:48:28,807 - WARNING - Invalid song data: Years I spent in vanity and pride,
+2025-07-19 18:48:28,807 - WARNING - Invalid song data: We read of a place that’s called heaven,
+2025-07-19 18:48:28,807 - WARNING - Invalid song data: There is a Home eternal,
+2025-07-19 18:48:28,807 - WARNING - Invalid song data: On the mountain of Zion beyond the blue sky,
+2025-07-19 18:48:28,808 - WARNING - Invalid song data: I shall see the King
+2025-07-19 18:48:28,808 - WARNING - Invalid song data: There is singing up in Heaven
+2025-07-19 18:48:28,808 - WARNING - Invalid song data: When I come to the end of the long, long road,
+2025-07-19 18:48:28,808 - WARNING - Invalid song data: When I come to the river at the ending of day
+2025-07-19 18:48:28,808 - WARNING - Invalid song data: There’s a land beyond the river,
+2025-07-19 18:48:28,809 - WARNING - Invalid song data: Face to face with Christ, my Saviour,
+2025-07-19 18:48:28,809 - WARNING - Invalid song data: There's a land that is fairer than day,
+2025-07-19 18:48:28,809 - WARNING - Invalid song data: 1. No tears in heaven, no sorrows given.
+2025-07-19 18:48:28,809 - WARNING - Invalid song data: Lord, as of old, at Pentecost,
+2025-07-19 18:48:28,809 - WARNING - Invalid song data: Joys are flowing like a river,
+2025-07-19 18:48:28,810 - WARNING - Invalid song data: When first the risen Lord of pow'r
+2025-07-19 18:48:28,810 - WARNING - Invalid song data: Long ago in days of old, stood a man of God we're told,
+2025-07-19 18:48:28,810 - WARNING - Invalid song data: The cross upon which Jesus died
+2025-07-19 18:48:28,810 - WARNING - Invalid song data: Have you wandered away from your Father's care,
+2025-07-19 18:48:28,810 - WARNING - Invalid song data: Why do you wait, dear brother,
+2025-07-19 18:48:28,811 - WARNING - Invalid song data: Rejoice in the Lord! Oh, let His mercy cheer;
+2025-07-19 18:48:28,811 - WARNING - Invalid song data: The Shepherd of Love is seeking the lost
+2025-07-19 18:48:28,811 - WARNING - Invalid song data: Who'll be the next to follow Jesus?
+2025-07-19 18:48:28,811 - WARNING - Invalid song data: “Almost persuaded” now to believe;
+2025-07-19 18:48:28,812 - WARNING - Invalid song data: My God, is any hour so sweet
+2025-07-19 18:48:28,812 - WARNING - Invalid song data: Prayer is the soul’s sincere desire,
+2025-07-19 18:48:28,812 - WARNING - Invalid song data: Ere you left your room this morning
+2025-07-19 18:48:28,812 - WARNING - Invalid song data: 1. What a Friend we have in Jesus,
+2025-07-19 18:48:28,813 - WARNING - Invalid song data: Sweet hour of pray'r! Sweet hour of pray'r!
+2025-07-19 18:48:28,813 - WARNING - Invalid song data: Jesus may come today,
+2025-07-19 18:48:28,813 - WARNING - Invalid song data: Marvelous message we bring
+2025-07-19 18:48:28,813 - WARNING - Invalid song data: Lift up your heads, pilgrims a-weary,
+2025-07-19 18:48:28,813 - WARNING - Invalid song data: It may be at morn, when the day is awaking,
+2025-07-19 18:48:28,814 - WARNING - Invalid song data: Search me, O God, and know my heart today;
+2025-07-19 18:48:28,814 - WARNING - Invalid song data: Blessed assurance, Jesus is mine!
+2025-07-19 18:48:28,814 - WARNING - Invalid song data: Since the Son hath made me free,
+2025-07-19 18:48:28,815 - WARNING - Invalid song data: All things are possible to him
+2025-07-19 18:48:28,815 - WARNING - Invalid song data: BLESSED are the pure in heart,
+2025-07-19 18:48:28,815 - WARNING - Invalid song data: Come, O my God, the promise seal,
+2025-07-19 18:48:28,815 - WARNING - Invalid song data: Saviour from sin, I wait to prove
+2025-07-19 18:48:28,816 - WARNING - Invalid song data: The things my God doth hate,
+2025-07-19 18:48:28,816 - WARNING - Invalid song data: JESUS, all-atoning Lamb,
+2025-07-19 18:48:28,817 - WARNING - Invalid song data: O Lord, how happy should we be
+2025-07-19 18:48:28,817 - WARNING - Invalid song data: Take time to be holy, speak of with thy Lord;
+2025-07-19 18:48:28,818 - WARNING - Invalid song data: Christ Jesus hath the power, the power to forgive,
+2025-07-19 18:48:28,818 - WARNING - Invalid song data: Come, Holy Ghost, all-quickening fire,
+2025-07-19 18:48:28,818 - WARNING - Invalid song data: O for a heart to praise my God,
+2025-07-19 18:48:28,819 - WARNING - Invalid song data: Another year is dawning,
+2025-07-19 18:48:28,819 - WARNING - Invalid song data: O day of rest and gladness,
+2025-07-19 18:48:28,819 - WARNING - Invalid song data: Another year is dawning, dear Father let it be,
+2025-07-19 18:48:28,820 - WARNING - Invalid song data: Does Jesus care when my heart is pained
+2025-07-19 18:48:28,820 - WARNING - Invalid song data: Wonderful love that rescued me,
+2025-07-19 18:48:28,820 - WARNING - Invalid song data: 1 I do not ask to see the way
+2025-07-19 18:48:28,820 - WARNING - Invalid song data: God has shown His loving face
+2025-07-19 18:48:28,821 - WARNING - Invalid song data: Hear the blessed Saviour Calling the oppressed,
+2025-07-19 18:48:28,821 - WARNING - Invalid song data: 1 “I am the Way,” the Saviour said,
+2025-07-19 18:48:28,821 - WARNING - Invalid song data: I was sinking deep in sin,
+2025-07-19 18:48:28,821 - WARNING - Invalid song data: Wonderful story of love;
+2025-07-19 18:48:28,821 - WARNING - Invalid song data: There is no love like the love of Jesus,
+2025-07-19 18:48:28,822 - WARNING - Invalid song data: A ruler once came to Jesus by night
+2025-07-19 18:48:28,822 - WARNING - Invalid song data: There's a line that is drawn by rejecting our Lord,
+2025-07-19 18:48:28,822 - WARNING - Invalid song data: Where will you spend eternity?
+2025-07-19 18:48:28,822 - WARNING - Invalid song data: Open my eyes, that I may see
+2025-07-19 18:48:28,822 - WARNING - Invalid song data: Crown him with many crowns,
+2025-07-19 18:48:28,823 - WARNING - Invalid song data: Jesus shall reign where'er the sun
+2025-07-19 18:48:28,823 - WARNING - Invalid song data: Rejoice, the Lord is King:
+2025-07-19 18:48:28,823 - WARNING - Invalid song data: All hail the power of Jesus' name!
+2025-07-19 18:48:28,823 - WARNING - Invalid song data: O happy day, that fixed my choice
+2025-07-19 18:48:28,823 - WARNING - Invalid song data: More about Jesus would I know,
+2025-07-19 18:48:28,824 - WARNING - Invalid song data: O perfect Love, all human thought transcending,
+2025-07-19 18:48:28,824 - WARNING - Invalid song data: More holiness give me,
+2025-07-19 18:48:28,824 - WARNING - Invalid song data: Simply trusting every day;
+2025-07-19 18:48:28,824 - WARNING - Invalid song data: 1 When I saw the cleansing fountain,
+2025-07-19 18:48:28,824 - WARNING - Invalid song data: Let not thy hands be slack,
+2025-07-19 18:48:28,825 - WARNING - Invalid song data: Speed thy servants, Saviour, speed them;
+2025-07-19 18:48:28,825 - WARNING - Invalid song data: I gave my life for thee,
+2025-07-19 18:48:28,825 - WARNING - Invalid song data: O the bitter shame and sorrow,
+2025-07-19 18:48:28,825 - WARNING - Invalid song data: Burn fire of God! my ransomed soul possessing;
+2025-07-19 18:48:28,826 - WARNING - Invalid song data: I want my life to be all filled with praise to Thee,
+2025-07-19 18:48:28,826 - WARNING - Invalid song data: Nearer, my God, to Thee, nearer to Thee!
+2025-07-19 18:48:28,826 - WARNING - Invalid song data: Oh, do not let thy Lord depart,
+2025-07-19 18:48:28,826 - WARNING - Invalid song data: Are you longing for the fullness
+2025-07-19 18:48:28,826 - WARNING - Invalid song data: There's a call comes ringing o'er the restless wave,
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: O Lord "with one accord"
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: The holy Spirit's power
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: Lord God, the Holy Ghost,
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: Peace, perfect peace, in this dark world of sin?
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: Thou hidden source of calm repose,
+2025-07-19 18:48:28,827 - WARNING - Invalid song data: One there is, above all others,
+2025-07-19 18:48:28,828 - WARNING - Invalid song data: Jesus Is The Same Forever
+2025-07-19 18:48:28,828 - WARNING - Invalid song data: I've found the pearl of greatest price,
+2025-07-19 18:48:28,828 - WARNING - Invalid song data: A good High Priest is come,
+2025-07-19 18:48:28,828 - WARNING - Invalid song data: Standing on the promises of Christ my King,
+2025-07-19 18:48:28,828 - WARNING - Invalid song data: Friends all around me are trying to find
+2025-07-19 18:48:28,829 - WARNING - Invalid song data: Is your life a channel of blessing?
+2025-07-19 18:48:28,829 - WARNING - Invalid song data: O brother, life’s journey beginning,
+2025-07-19 18:48:28,829 - WARNING - Invalid song data: 'Tis finished! the Messiah dies,
+2025-07-19 18:48:28,829 - WARNING - Invalid song data: From ev'ry stormy wind that blows,
+2025-07-19 18:48:28,829 - WARNING - Invalid song data: Come sing the praise of Jesus
+2025-07-19 18:48:28,830 - WARNING - Invalid song data: Jesus, my Lord will love me forever,
+2025-07-19 18:48:28,830 - WARNING - Invalid song data: 'For my sake and the gospel's, go
+2025-07-19 18:48:28,830 - WARNING - Invalid song data: Fading away like the stars of the morning
+2025-07-19 18:48:28,830 - WARNING - Invalid song data: All the darkness of the night has passed away,
+2025-07-19 18:48:28,830 - WARNING - Invalid song data: All, all to Jesus, I consecrate anew;
+2025-07-19 18:48:28,831 - WARNING - Invalid song data: Lower and lower, dear Lord, at Thy feet,
+2025-07-19 18:48:28,831 - WARNING - Invalid song data: Redeemed—how I love to proclaim it!
+2025-07-19 18:48:28,831 - WARNING - Invalid song data: Jesus, send more labourers
+2025-07-19 18:48:28,831 - WARNING - Invalid song data: Oh, to be like Thee, blessed Redeemer,
+2025-07-19 18:48:28,832 - WARNING - Invalid song data: More like the Master I would ever be,
+2025-07-19 18:48:28,832 - WARNING - Invalid song data: I know not why God’s wondrous grace
+2025-07-19 18:48:28,832 - WARNING - Invalid song data: Gracious Spirit, dwell with me:
+2025-07-19 18:48:28,833 - WARNING - Invalid song data: Storms do not alarm me, they sometime must cease,
+2025-07-19 18:48:28,833 - WARNING - Invalid song data: Impatient heart, be still!
+2025-07-19 18:48:28,833 - WARNING - Invalid song data: Upon life’s boundless ocean where mighty billows roll,
+2025-07-19 18:48:28,833 - WARNING - Invalid song data: O what a wonderful, wonderful day –
+2025-07-19 18:48:28,833 - WARNING - Invalid song data: What a wonderful change in my life has been wrought
+2025-07-19 18:48:28,834 - WARNING - Invalid song data: There’s a peace in my heart
+2025-07-19 18:48:28,834 - WARNING - Invalid song data: I was once a sinner, but I came
+2025-07-19 18:48:28,834 - WARNING - Invalid song data: 1 I am bought not with riches,
+2025-07-19 18:48:28,834 - WARNING - Invalid song data: Christ our Redeemer died on the cross,
+2025-07-19 18:48:28,835 - WARNING - Invalid song data: Have you been to Jesus for the cleansing power?
+2025-07-19 18:48:28,835 - WARNING - Invalid song data: If the world from you withhold of its silver and its gold,
+2025-07-19 18:48:28,835 - WARNING - Invalid song data: Wash me, O Lamb of God,
+2025-07-19 18:48:28,835 - WARNING - Invalid song data: Onward, Christian soldiers! marching as to war,
+2025-07-19 18:48:28,836 - WARNING - Invalid song data: Thou my everlasting Portion,
+2025-07-19 18:48:28,836 - WARNING - Invalid song data: When we walk with the Lord
+2025-07-19 18:48:28,836 - WARNING - Invalid song data: There’s a land of peace and plenty,
+2025-07-19 18:48:28,836 - WARNING - Invalid song data: JESUS, my strength, my hope,
+2025-07-19 18:48:28,836 - WARNING - Invalid song data: O give us homes built firm upon the Saviour,
+2025-07-19 18:48:28,837 - WARNING - Invalid song data: Just as God who reigns on high
+2025-07-19 18:48:28,837 - WARNING - Invalid song data: 'Tis so sweet to trust in Jesus,
+2025-07-19 18:48:28,837 - WARNING - Invalid song data: Never be sad or desponding,
+2025-07-19 18:48:28,837 - WARNING - Invalid song data: There's a blessed land that we call Canaan,
+2025-07-19 18:48:28,837 - WARNING - Invalid song data: When you count the ones who love the Lord,
+2025-07-19 18:48:28,838 - WARNING - Invalid song data: So send I you to labour unrewarded
+2025-07-19 18:48:28,838 - WARNING - Invalid song data: Listen to the Master’s pleading,
+2025-07-19 18:48:28,838 - WARNING - Invalid song data: Anywhere with Jesus I can safely go;
+2025-07-19 18:48:28,838 - WARNING - Invalid song data: I love, I love my Master,
+2025-07-19 18:48:28,838 - WARNING - Invalid song data: Ho, reapers in the whitened harvest!
+2025-07-19 18:48:28,839 - WARNING - Invalid song data: In the harvest field now ripened
+2025-07-19 18:48:28,839 - WARNING - Invalid song data: Living below in this old sinful world,
+2025-07-19 18:48:28,839 - WARNING - Invalid song data: Go, labour on, spend, and be spent,
+2025-07-19 18:48:28,839 - WARNING - Invalid song data: I am thinking today of that beautiful land
+2025-07-19 18:48:28,839 - WARNING - Invalid song data: There have been names that I have loved to hear,
+2025-07-19 18:48:28,840 - WARNING - Invalid song data: My Jesus I love Thee, I know Thou art mine;
+2025-07-19 18:48:28,840 - WARNING - Invalid song data: Saviour, like a Shepherd, lead us,
+2025-07-19 18:48:28,840 - WARNING - Invalid song data: Christ beside me,
+2025-07-19 18:48:28,840 - WARNING - Invalid song data: O soul, are you weary and troubled?
+2025-07-19 18:48:28,840 - WARNING - Invalid song data: Have you any room for Jesus,
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: There is One loved me so that for me He died,
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: My hope is built on nothing less
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: There came from the skies in the days long ago,
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: The church's one foundation
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: In times like these you need a Savior,
+2025-07-19 18:48:28,841 - WARNING - Invalid song data: I have decided to follow Jesus;
+2025-07-19 18:48:28,842 - WARNING - Invalid song data: I must needs go home by the way of the cross,
+2025-07-19 18:48:28,842 - WARNING - Invalid song data: O for a thousand tonngues to sing,
+2025-07-19 18:48:28,842 - WARNING - Invalid song data: Alas! and did my Savior bleed,
+2025-07-19 18:48:28,842 - WARNING - Invalid song data: King of my life I crown thee now
+2025-07-19 18:48:28,843 - WARNING - Invalid song data: When I survey the wondrous cross
+2025-07-19 18:48:28,843 - WARNING - Invalid song data: Deeper, deeper, in the love of Jesus,
+2025-07-19 18:48:28,843 - WARNING - Invalid song data: Nothing between my soul and my Savior,
+2025-07-19 18:48:28,843 - WARNING - Invalid song data: Take my life and let it be
+2025-07-19 18:48:28,843 - WARNING - Invalid song data: "Take up thy cross and follow me,"
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: O Jesus, I have promised
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: O Love that wilt not let me go,
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: I can hear my Savior calling,
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: All to Jesus I surrender,
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: More love to Thee, O Christ, more love to Thee!
+2025-07-19 18:48:28,844 - WARNING - Invalid song data: I am Thine, O Lord, I have heard Thy voice,
+2025-07-19 18:48:28,845 - WARNING - Invalid song data: COME, Saviour, Jesus, from above!
+2025-07-19 18:48:28,845 - WARNING - Invalid song data: Master, the tempest is raging!
+2025-07-19 18:48:28,845 - WARNING - Invalid song data: Oft in danger, oft in woe,
+2025-07-19 18:48:28,845 - WARNING - Invalid song data: Rise, ye children of salvation,
+2025-07-19 18:48:28,845 - WARNING - Invalid song data: There is vict’ry within my soul
+2025-07-19 18:48:28,846 - WARNING - Invalid song data: txt
+2025-07-19 18:48:28,846 - INFO - Starting task: Loading media model...
+2025-07-19 18:48:28,852 - INFO - Starting task: Loading presentation model...
+2025-07-19 18:48:28,857 - INFO - Starting task: Loading theme model...
+2025-07-19 18:48:28,863 - INFO - Starting task: Loading scripture model...
+2025-07-19 18:48:28,870 - WARNING - No valid bibles found in data/bibles
+2025-07-19 18:48:28,870 - INFO - Starting task: Initializing main window...
+2025-07-19 18:48:28,876 - INFO - Settings saved successfully
+2025-07-19 18:48:28,876 - INFO - Settings loaded successfully
+2025-07-19 18:48:29,252 - ERROR - Failed to setup UI: Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 131, in setup_ui
+    self.tabs = self.create_content_tabs()
+                ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 453, in create_content_tabs
+    self.themes_tab = ThemesTab()
+                      ~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\themes_ui.py", line 618, in __init__
+    self.update_completers()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\themes_ui.py", line 633, in update_completers
+    self.search_completer.setModel(QStringListModel(names))
+                                   ^^^^^^^^^^^^^^^^
+NameError: name 'QStringListModel' is not defined
+
+2025-07-19 18:48:35,248 - ERROR - Failed startup task 'Initializing main window...': name 'QStringListModel' is not defined
+2025-07-19 18:48:35,249 - ERROR - [Main] INIT_006: Failed startup task 'Initializing main window...': name 'QStringListModel' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 399, in main
+    components[message] = task()
+                          ~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\main.py", line 390, in <lambda>
+    ("Initializing main window...", lambda: SanctifyApp())
+                                            ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 48, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 131, in setup_ui
+    self.tabs = self.create_content_tabs()
+                ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\main_window.py", line 453, in create_content_tabs
+    self.themes_tab = ThemesTab()
+                      ~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\themes_ui.py", line 618, in __init__
+    self.update_completers()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Documents\Build\SanctifyLiveApp\SanctifyLiveApp\ui\themes_ui.py", line 633, in update_completers
+    self.search_completer.setModel(QStringListModel(names))
+                                   ^^^^^^^^^^^^^^^^
+NameError: name 'QStringListModel' is not defined
+2025-07-19 18:48:35,252 - ERROR - SanctifyError: [Main] INIT_006: Failed startup task 'Initializing main window...': name 'QStringListModel' is not defined

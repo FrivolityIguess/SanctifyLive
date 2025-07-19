@@ -1,0 +1,13 @@
+{
+    "theme": "light",
+    "window_geometry": {
+        "width": 1920,
+        "height": 928,
+        "x": -34,
+        "y": 0
+    },
+    "font": {
+        "family": "Arial",
+        "size": 16
+    }
+}

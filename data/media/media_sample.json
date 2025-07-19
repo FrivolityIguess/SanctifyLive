@@ -1,0 +1,21 @@
+[
+    {
+        "name": "sample_image.jpg",
+        "path": "data/media/Images/sample_image.jpg",
+        "category": "Images",
+        "tags": "worship,background",
+        "scaling": "fit",
+        "created_at": "2025-07-19T18:48:26.381770",
+        "updated_at": "2025-07-19T18:48:26.381775",
+        "is_logo": false
+    },
+    {
+        "name": "sample_video.mp4",
+        "path": "data/media/Videos/sample_video.mp4",
+        "category": "Videos",
+        "tags": "intro,loop",
+        "scaling": "fill",
+        "created_at": "2025-07-19T18:48:26.381777",
+        "updated_at": "2025-07-19T18:48:26.381778"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": "a2cace8d-f0b9-4fd3-835e-03991cea8f5a",
+        "name": "Modern Worship",
+        "context": "Songs",
+        "alignment": "Centered",
+        "font_color": "#ffffff",
+        "background_color": "#2c3e50",
+        "font_size": 24,
+        "font_family": "Arial",
+        "tags": "modern,worship",
+        "created_at": "2025-07-19T18:48:26.390272",
+        "updated_at": "2025-07-19T18:48:26.390278"
+    },
+    {
+        "id": "6c1a59de-ef52-49b1-8538-7f3b536af06d",
+        "name": "Classic Sermon",
+        "context": "Presentations",
+        "alignment": "Left",
+        "font_color": "#000000",
+        "background_color": "#f4f4f4",
+        "font_size": 18,
+        "font_family": "Times New Roman",
+        "tags": "sermon,classic",
+        "created_at": "2025-07-19T18:48:26.390285",
+        "updated_at": "2025-07-19T18:48:26.390286"
+    }
+]

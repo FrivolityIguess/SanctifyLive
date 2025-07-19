@@ -1,0 +1,26 @@
+{
+    "general": {
+        "startup_screen": "Songs",
+        "language": "English",
+        "enable_tips": true
+    },
+    "appearance": {
+        "theme": "Light",
+        "ui_font": "Arial,12,-1,5,50,0,0,0,0,0",
+        "enable_animations": true
+    },
+    "paths": {
+        "bible_versions_dir": "data/bibles",
+        "media_folder": "data/media",
+        "songs_file": "data/songs/songs.json"
+    },
+    "behavior": {
+        "auto_save_interval": 300,
+        "confirm_before_delete": true,
+        "default_playback_speed": 1.0
+    },
+    "advanced": {
+        "developer_mode": false,
+        "log_level": "INFO"
+    }
+}

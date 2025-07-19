@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Amazing Grace",
+        "sections": [
+            [
+                "Verse",
+                "Amazing grace! How sweet the sound\nThat saved a wretch like me."
+            ],
+            [
+                "Chorus",
+                "I once was lost, but now am found\nWas blind, but now I see."
+            ]
+        ],
+        "tags": "worship,classic,grace",
+        "created_at": "2025-07-19T07:52:33.843851",
+        "updated_at": "2025-07-19T07:52:33.843857"
+    }
+]

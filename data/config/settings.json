@@ -1,0 +1,43 @@
+{
+    "general": {
+        "startup_screen": "Songs",
+        "language": "English",
+        "enable_tips": true,
+        "window_geometry": {
+            "width": 1280,
+            "height": 720,
+            "x": 100,
+            "y": 100
+        }
+    },
+    "appearance": {
+        "theme": "Light",
+        "ui_font": "Arial,12,-1,5,50,0,0,0,0,0",
+        "enable_animations": true
+    },
+    "paths": {
+        "songs": "data/songs/songs.json",
+        "media": "data/media",
+        "media_metadata": "data/media/media.json",
+        "presentations": "data/presentations/presentations.json",
+        "themes": "data/themes/themes.json",
+        "bibles": "data/bibles",
+        "bible_versions_dir": "data/bibles",
+        "media_folder": "data/media",
+        "songs_file": "data/songs/songs.json",
+        "presentations_file": "data/presentations/presentations.json",
+        "themes_file": "data/themes/themes.json"
+    },
+    "behavior": {
+        "auto_save_interval": 300,
+        "confirm_before_delete": true,
+        "default_playback_speed": 1.0
+    },
+    "advanced": {
+        "developer_mode": false,
+        "log_level": "INFO"
+    },
+    "accessibility": {
+        "high_contrast": false
+    }
+}
